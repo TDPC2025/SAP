@@ -125,15 +125,15 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel" data-slides-to-show="1">
-          <img src="static/images/results/0.jpg">
-          <img src="static/images/results/1.jpg">
-          <img src="static/images/results/2.jpg">
-          <img src="static/images/results/3.jpg">
-          <img src="static/images/results/4.jpg">
-          <img src="static/images/results/5.jpg">
-          <img src="static/images/results/6.jpg">
-          <img src="static/images/results/7.jpg">
-          <img src="static/images/results/8.jpg">
+          <img src="static/images/results/0.jpeg">
+          <img src="static/images/results/1.jpeg">
+          <img src="static/images/results/2.jpeg">
+          <img src="static/images/results/3.jpeg">
+          <img src="static/images/results/4.jpeg">
+          <img src="static/images/results/5.jpeg">
+          <img src="static/images/results/6.jpeg">
+          <img src="static/images/results/7.jpeg">
+          <img src="static/images/results/8.jpeg">
       </div>
     </div>
   </div>
@@ -197,12 +197,26 @@
           <div class="content has-text-justified">
             <p>
               Our method is based on the interplay between soft- and hard-layouts.
+            </p>
+            <p>
               A <i>soft-layout</i> is a feature map that represents each pixel as a descriptor encapsulating its potential to associate with other pixels in composing a single subject.
+            </p>
+            <p>
               A <i>hard-layout</i> is derived by clustering the soft-layout according to the number of subjects described in the prompt.
+            </p>
+            <p>
               This figure illustrates the progression of the soft- and hard-layouts in three cases.
+            </p>
+            <p>
               The top row shows results from our full method, where the model is encouraged to produce soft-layouts that respect the previous hard-layouts, promoting a “decisive” generation process.
+            </p>
+            <p>
               The middle row presents our method without guidance: hard-layouts are used to reduce leakage, but without explicitly encouraging decisiveness.
+            </p>
+            <p>
               The bottom row shows vanilla SDXL, where only the soft-layout extracted from the noisy latents is displayed.
+            </p>
+            <p>
               Below each image, we show the hard-layout obtained at the final timestep.
             </p>
           </div>
