@@ -210,9 +210,9 @@
           <div class="content has-text-justified">
             <p>
               Our method steers the denoising process by applying iterative guidance (turquoise box) after each denoising step (orange regions).
-              At denoising step \( t \) (left orange box), we predict a <i>soft-layout</i> \( S^t \) based on the diffusion model’s features, and cluster it to form a prompt-aligned <i>hard-layout</i> \( M^t \) (purple box).
+              At denoising step t (left orange box), we predict a <i>soft-layout</i> S<sup>t</sup> based on the diffusion model’s features, and cluster it to form a prompt-aligned <i>hard-layout</i> M<sup>t</sup> (purple box).
               This hard-layout is then used to control the layout of the next denoising step (right orange box).
-              In the guidance stage, we optimize the latent image, with the objective to align its associated updated soft-layout with the hard-layout \( M^t \).
+              In the guidance stage, we optimize the latent image, with the objective to align its associated updated soft-layout with the hard-layout M<sup>t</sup>.
             </p>
           </div>
       </div>
