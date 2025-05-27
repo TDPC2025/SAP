@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Be Yourself</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBKFF5WPJF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-KBKFF5WPJF');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Be Decisive: Noise-Induced Layouts for Multi-Subject Generation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=D1tKZR0AAAAJ&hl=iw&oi=ao/">Omer Dahary</a><sup>1,2</sup>&nbsp
+            </span>
+            <span class="author-block">
+              <a href="https://il.linkedin.com/in/yehonathan-cohen/">Yehonathan Cohen</a><sup>1</sup>&nbsp
+            </span>
+            <span class="author-block">
+              <a href="https://orpatashnik.github.io/">Or Patashnik</a><sup>1,2</sup>&nbsp
+            </span>
+            <span class="author-block">
+              <a href="https://kfiraberman.github.io/">Kfir Aberman</a><sup>2</sup>&nbsp
+            </span>
+            <span class="author-block">
+              <a href="https://danielcohenor.com/">Daniel Cohen-Or</a><sup>1,2</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Tel-Aviv University</span> &nbsp
+            <span class="author-block"><sup>2</sup>Snap Research</span>
+          </div>
+
+          <br>
+          <div>
+            <h1 class="title">SIGGRAPH 2025</h1>
+          </div>
+          <br>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/omer11a/be-decisive"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (coming soon)</span>
+                </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/teaser.jpeg">
+      <h2 class="subtitle has-text-centered">
+	Introducing <b>''Be Decisive''</b>, a method for regulating the accurate generation of multi-subject images without relying on pre-made layouts.
+      </h2>
+      <h3 class="subtitle has-text-centered">
+  Our approach extracts a prompt-aligned layout directly from the initial random noise, guiding the model to follow it while refining the layout during denoising.
+  This generation process respects the diffusion model's prior, leading to natural and divserse compositions while reducing semantic leakage.
+      </h3>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel" data-slides-to-show="1">
+          <img src="static/images/results/0.jpg">
+          <img src="static/images/results/1.jpg">
+          <img src="static/images/results/2.jpg">
+          <img src="static/images/results/3.jpg">
+          <img src="static/images/results/4.jpg">
+          <img src="static/images/results/5.jpg">
+          <img src="static/images/results/6.jpg">
+          <img src="static/images/results/7.jpg">
+          <img src="static/images/results/8.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Generating multiple distinct subjects remains a challenge for existing text-to-image diffusion models.
+            Complex prompts often lead to subject leakage, causing inaccuracies in quantities, attributes, and visual features.
+            Preventing leakage among subjects necessitates knowledge of each subject’s spatial location.
+            Recent methods provide these spatial locations via an external layout control.
+            However, enforcing such a prescribed layout often conflicts with the innate layout dictated by the sampled initial noise, leading to misalignment with the model's prior.
+            In this work, we introduce a new approach that predicts a spatial layout aligned with the prompt, derived from the initial noise, and refines it throughout the denoising process.
+            By relying on this noise-induced layout, we avoid conflicts with externally imposed layouts and better preserve the model’s prior.
+            Our method employs a small neural network to predict and refine the evolving noise-induced layout at each denoising step, ensuring clear boundaries between subjects while maintaining consistency.
+            Experimental results show that this noise-aligned strategy achieves improved text-image alignment and more stable multi-subject generation compared to existing layout-guided techniques, while preserving the rich diversity of the model’s original distribution.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+      <div class="container is-max-desktop is-centered has-text-centered">
+      <h2 class="title is-3">Noise-Induced Layouts</h2>
+          <div class="content has-text-justified">
+            <p>
+              Noise-induced layouts leverage the fact that the initial random noise in a diffusion model already encodes a natural spatial arrangement based on the model's prior.
+              Instead of forcing an external layout (made by the user or a LLM), our method extracts a layout directly from this noise and refines it throughout the denoising process.
+            </p>
+          </div>
+          <img class="my-image" src="static/images/nil.jpg" style="width:400px; height:auto;">
+          <div class="content has-text-justified">
+            <p>
+		          Here, we display the noise-induced layouts obtained from the initial noise for different random seeds.
+          </div>
+    </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+      <div class="container is-max-desktop is-centered has-text-centered">
+      <h2 class="title is-3">How does it work?</h2>
+          <img class="my-image" src="static/images/layouts.jpg" style="width:600px; height:auto;">
+          <div class="content has-text-justified">
+            <p>
+              Our method is based on the interplay between soft- and hard-layouts.
+              A <i>soft-layout</i> is a feature map that represents each pixel as a descriptor encapsulating its potential to associate with other pixels in composing a single subject.
+              A <i>hard-layout</i> is derived by clustering the soft-layout according to the number of subjects described in the prompt.
+              This figure illustrates the progression of the soft- and hard-layouts in three cases.
+              The top row shows results from our full method, where the model is encouraged to produce soft-layouts that respect the previous hard-layouts, promoting a “decisive” generation process.
+              The middle row presents our method without guidance: hard-layouts are used to reduce leakage, but without explicitly encouraging decisiveness.
+              The bottom row shows vanilla SDXL, where only the soft-layout extracted from the noisy latents is displayed.
+              Below each image, we show the hard-layout obtained at the final timestep.
+            </p>
+          </div>
+          <img class="my-image" src="static/images/overview.jpg" style="width:600px; height:auto;">
+          <div class="content has-text-justified">
+            <p>
+              Our method steers the denoising process by applying iterative guidance (turquoise box) after each denoising step (orange regions).
+              At denoising step \( t \) (left orange box), we predict a <i>soft-layout</i> \( S^t \) based on the diffusion model’s features, and cluster it to form a prompt-aligned <i>hard-layout</i> \( M^t \) (purple box).
+              This hard-layout is then used to control the layout of the next denoising step (right orange box).
+              In the guidance stage, we optimize the latent image, with the objective to align its associated updated soft-layout with the hard-layout \( M^t \).
+            </p>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section class="section is-light" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+    </code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Website source code based on the <a href="https://nerfies.github.io/">Nerfies</a> project page. If you want to reuse their <a href="https://github.com/nerfies/nerfies.github.io">source code</a>, please credit them appropriately.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
