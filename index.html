@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Be Decisive</title>
+  <title>Image Generation from Contextually-Contradictory Prompts</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBKFF5WPJF"></script>
@@ -45,36 +45,12 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Be Decisive: Noise-Induced Layouts for Multi-Subject Generation</h1>
+          <h1 class="title is-1 publication-title">Image Generation from Contextually-Contradictory Prompts</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=D1tKZR0AAAAJ&hl=iw&oi=ao/">Omer Dahary</a><sup>1,2</sup>&nbsp
-            </span>
-            <span class="author-block">
-              <a href="https://il.linkedin.com/in/yehonathan-cohen/">Yehonathan Cohen</a><sup>1</sup>&nbsp
-            </span>
-            <span class="author-block">
-              <a href="https://orpatashnik.github.io/">Or Patashnik</a><sup>1,2</sup>&nbsp
-            </span>
-            <span class="author-block">
-              <a href="https://kfiraberman.github.io/">Kfir Aberman</a><sup>2</sup>&nbsp
-            </span>
-            <span class="author-block">
-              <a href="https://danielcohenor.com/">Daniel Cohen-Or</a><sup>1,2</sup>
+              Anonymous authors
             </span>
           </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Tel-Aviv University</span> &nbsp
-            <span class="author-block"><sup>2</sup>Snap Research</span>
-          </div>
-
-          <br>
-          <div>
-            <h1 class="title">SIGGRAPH 2025</h1>
-          </div>
-          <br>
-
           <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
@@ -88,7 +64,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/omer11a/be-decisive"
+                <a href="https://github.com/TDPC2025/SAP"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -108,14 +84,13 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="static/images/teaser.jpeg">
+      <img src="static/images/teaser.jpg">
       <h2 class="subtitle has-text-centered">
-	Introducing <b>''Be Decisive''</b>, a method for regulating the accurate generation of multi-subject images without relying on pre-made layouts.
+	Introducing <b>''Stage Aware Prompting (SAP)''</b>, a method for resolving contextual contradictions in text-to-image generation by aligning prompt information with the semantic stages of the denoising process.
       </h2>
       <h3 class="subtitle has-text-centered">
-  Our approach extracts a prompt-aligned layout directly from the initial random noise, guiding the model to follow it while refining the layout during denoising.
-  This generation process respects the diffusion model's prior, leading to natural and divserse compositions while reducing semantic leakage.
-      </h3>
+  Our approach decomposes contextually contradictory prompts into a sequence of proxy prompts, each tailored to a specific timestep range. These stage-aware prompts guide the generation process from coarse layout to fine details, ensuring semantic coherence and mitigating conflicts arising from entangled concept associations in pretrained diffusion models.
+  By leveraging a large language model to identify and temporally separate contradictory concepts, SAP enables faithful and fine-grained image generation from prompts that would otherwise fail to align with the intended semantics. </h3>
     </div>
   </div>
 </section>
@@ -125,15 +100,15 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel" data-slides-to-show="1">
-          <img src="static/images/results/0.jpeg">
-          <img src="static/images/results/1.jpeg">
-          <img src="static/images/results/2.jpeg">
-          <img src="static/images/results/3.jpeg">
-          <img src="static/images/results/4.jpeg">
-          <img src="static/images/results/5.jpeg">
-          <img src="static/images/results/6.jpeg">
-          <img src="static/images/results/7.jpeg">
-          <img src="static/images/results/8.jpeg">
+          <img src="static/images/results/shrek.jpeg">
+          <img src="static/images/results/monkey.jpeg">
+          <img src="static/images/results/storm.jpeg">
+          <img src="static/images/results/boxer.jpeg">
+          <img src="static/images/results/skyscraper.jpeg">
+          <img src="static/images/results/jetski.jpeg">
+          <img src="static/images/results/piggyback.jpeg">
+          <img src="static/images/results/spongebob.jpeg">
+          <img src="static/images/results/hive.jpeg">
       </div>
     </div>
   </div>
@@ -148,15 +123,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Generating multiple distinct subjects remains a challenge for existing text-to-image diffusion models.
-            Complex prompts often lead to subject leakage, causing inaccuracies in quantities, attributes, and visual features.
-            Preventing leakage among subjects necessitates knowledge of each subject’s spatial location.
-            Recent methods provide these spatial locations via an external layout control.
-            However, enforcing such a prescribed layout often conflicts with the innate layout dictated by the sampled initial noise, leading to misalignment with the model's prior.
-            In this work, we introduce a new approach that predicts a spatial layout aligned with the prompt, derived from the initial noise, and refines it throughout the denoising process.
-            By relying on this noise-induced layout, we avoid conflicts with externally imposed layouts and better preserve the model’s prior.
-            Our method employs a small neural network to predict and refine the evolving noise-induced layout at each denoising step, ensuring clear boundaries between subjects while maintaining consistency.
-            Experimental results show that this noise-aligned strategy achieves improved text-image alignment and more stable multi-subject generation compared to existing layout-guided techniques, while preserving the rich diversity of the model’s original distribution.
+            Text-to-image diffusion models excel at generating high-quality, diverse images from natural language prompts. 
+            However, they often fail to produce semantically accurate results when the prompt contains concept combinations that contradict their learned priors.
+            We define this failure mode as <em>contextual contradiction</em>, where one concept implicitly negates another due to entangled associations learned during training.
+            To address this, we propose a stage-aware prompt decomposition framework that guides the denoising process using a sequence of proxy prompts. 
+            Each proxy prompt is constructed to match the semantic content expected to emerge at a specific stage of denoising, while ensuring contextual coherence.
+            To construct these proxy prompts, we leverage a large language model (LLM) to analyze the target prompt, identify contradictions, and generate alternative expressions that preserve the original intent while resolving contextual conflicts.
+            By aligning prompt information with the denoising progression, our method enables fine-grained semantic control and accurate image generation in the presence of contextual contradictions. Experiments across a variety of challenging prompts show substantial improvements in alignment to the textual prompt.
           </p>
         </div>
       </div>
@@ -173,17 +146,31 @@
 <section class="hero is-small">
   <div class="hero-body">
       <div class="container is-max-desktop is-centered has-text-centered">
-      <h2 class="title is-3">Noise-Induced Layouts</h2>
+      <h2 class="title is-3"> Coarse-to-fine denoising</h2>
           <div class="content has-text-justified">
             <p>
-              Noise-induced layouts leverage the fact that the initial random noise in a diffusion model already encodes a natural spatial arrangement based on the model's prior.
-              Instead of forcing an external layout (made by the user or a LLM), our method extracts a layout directly from this noise and refines it throughout the denoising process.
+              Text-to-image diffusion models generates images by progressively refining noise over a series of denoising steps. 
+              This process inherently follows a coarse-to-fine structure: early steps establish broad layout and spatial composition, while later steps gradually add fine details.
+              This generative structure gives rise to two key observations:
+            <ul style="text-align: left; display: inline-block;">
+              <li><strong>Irreversibility of details:</strong> At each stage of denoising, the model commits to a certain level of structural detail. Once a given attribute (e.g., layout, coarse shape) has been established, it becomes effectively fixed and cannot be revised in later steps, even if it misaligns with the prompt.</li>
+              <li><strong>Flexibility in high-frequency details:</strong> In early stages, high-frequency details have not yet emerged and thus are unaffected by the prompt. This allows greater flexibility in guiding the model without impacting the final generated fine details.</li>
+            </ul>
             </p>
           </div>
-          <img class="my-image" src="static/images/nil.jpg" style="width:800px; height:auto;">
+          <img class="my-image" src="static/images/coarse_to_fine.jpg">
           <div class="content has-text-justified">
             <p>
-		          Here, we display the noise-induced layouts obtained from the initial noise for different random seeds.
+		          Here, we display this behaviour by observing the model x<sub>0</sub> prediction through various denoising steps.
+              <ul>
+                <li><strong>Top row:</strong> Using the full prompt from the start causes early mistakes (like night scenes) that can't be fixed later.</li>
+                <li><strong>Middle row:</strong> A clean proxy prompt avoids early conflicts, and switching mid-way keeps the layout while correcting details.</li>
+                <li><strong>Bottom row:</strong> A bad proxy misguides structure and lighting.</li>
+              </ul>
+            </p>
+          <p>
+              These insights enable our method to steer the generation process more effectively by conditioning the model with prompt information that aligns with what the model is capable of expressing at each stage.
+              </p>
           </div>
     </div>
 </section>
@@ -193,41 +180,26 @@
   <div class="hero-body">
       <div class="container is-max-desktop is-centered has-text-centered">
       <h2 class="title is-3">How does it work?</h2>
-          <img class="my-image" src="static/images/layouts.jpg" style="width:600px; height:auto;">
+          <!-- <img class="my-image" src="static/images/layouts.jpg" style="width:600px; height:auto;"> -->
           <div class="content has-text-justified">
             <p>
-              Our method is based on the interplay between soft- and hard-layouts.
-            </p>
-            <p>
-              A <i>soft-layout</i> is a feature map that represents each pixel as a descriptor encapsulating its potential to associate with other pixels in composing a single subject.
-            </p>
-            <p>
-              A <i>hard-layout</i> is derived by clustering the soft-layout according to the number of subjects described in the prompt.
-            </p>
-            <p>
-              This figure illustrates the progression of the soft- and hard-layouts in three cases.
-            </p>
-            <p>
-              The top row shows results from our full method, where the model is encouraged to produce soft-layouts that respect the previous hard-layouts, promoting a “decisive” generation process.
-            </p>
-            <p>
-              The middle row presents our method without guidance: hard-layouts are used to reduce leakage, but without explicitly encouraging decisiveness.
-            </p>
-            <p>
-              The bottom row shows vanilla SDXL, where only the soft-layout extracted from the noisy latents is displayed.
-            </p>
-            <p>
-              Below each image, we show the hard-layout obtained at the final timestep.
+              Our method guides the denoising process using time-dependent proxy prompts that adapt to the model’s internal progression from coarse to fine.
+
+              A large language model (LLM) analyzes the input prompt and decomposes it into a sequence of proxy prompts, each tailored to specific stages of the generation process. These intermediate prompts are injected into the diffusion model at predefined timestep intervals.
+              
+              By aligning the prompt information with the model’s evolving visual structure, this stage-aware conditioning ensures a semantically coherent and contextually accurate image.
+              
+              
             </p>
           </div>
           <img class="my-image" src="static/images/overview.jpg" style="width:1000px; height:auto;">
           <div class="content has-text-justified">
-            <p>
-              Our method steers the denoising process by applying iterative guidance (turquoise box) after each denoising step (orange regions).
-              At denoising step t (left orange box), we predict a <i>soft-layout</i> S<sup>t</sup> based on the diffusion model’s features, and cluster it to form a prompt-aligned <i>hard-layout</i> M<sup>t</sup> (purple box).
-              This hard-layout is then used to control the layout of the next denoising step (right orange box).
-              In the guidance stage, we optimize the latent image, with the objective to align its associated updated soft-layout with the hard-layout M<sup>t</sup>.
-            </p>
+            <!-- <p>
+              Our method navigates the denoising process using time-dependent proxy prompts. 
+              (Top) A large language model (LLM) is employed to decompose a target prompt with entangled or conflicting attributes into a sequence of proxy prompts and their corresponding time-step intervals. 
+              (Bottom) These intermediate prompts are injected into the diffusion process at the specified intervals. 
+              This time-dependent prompt conditioning aligns more closely with the model’s prior at each stage, enabling a semantically consistent and temporally coherent progression through the denoising process.
+            </p> -->
           </div>
       </div>
   </div>
