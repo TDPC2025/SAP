@@ -89,7 +89,7 @@
 	<!-- Introducing <b>''Stage Aware Prompting (SAP)''</b>, a method for resolving contextual contradictions in text-to-image generation by aligning prompt information with the semantic stages of the denoising process. -->
   Text-to-image diffusion models often fail on prompts that combine concepts misaligned with their learned associations, generating semantically inaccurate images. 
   We call this <b>Contextual Contradiction</b>—a failure mode where one concept implicitly contradicts another due to entangled priors. 
-  For example, “a bear doing a handstand” contradicts the model’s priors about typical bear poses, and “a dragon blowing water” conflicts with its learned association with fire.
+  For example, “a bear perfroming a handstand” contradicts the model’s priors about typical bear poses, and “a dragon blowing water” conflicts with its learned association with fire.
       </h2>
       <h3 class="subtitle has-text-centered">
   <!-- Our approach decomposes contextually contradictory prompts into a sequence of proxy prompts, each tailored to a specific timestep range. These stage-aware prompts guide the generation process from coarse layout to fine details, ensuring semantic coherence and mitigating conflicts arising from entangled concept associations in pretrained diffusion models.
