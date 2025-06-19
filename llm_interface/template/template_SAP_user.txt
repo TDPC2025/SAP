@@ -1,0 +1,234 @@
+The output should follow the format of the examples below:
+### Input: A polar bear in a desert
+### Output:
+a. Explanation: A polar bear is common in snowy scenes, not deserts. Since no suitable object proxy exists, the prompt starts with the desert alone before introducing the unlikely animal.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "A desert",
+    "A polar bear in a desert"
+  ],
+  "switch_prompts_steps": [2]
+}
+
+### Input: A fox in a nursery
+### Output:
+a. Explanation: A fox is uncommon in indoor scenes. Starting with a dog, then a visually similar breed (Shiba Inu), provides a natural proxy before introducing the fox in a childlike setting.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "A dog in a nursery",
+    "A Shiba Inu dog in a nursery",
+    "A fox in a baby room"
+  ],
+  "switch_prompts_steps": [4, 7]
+}
+
+### Input: A snowman on the moon
+### Output:
+a. Explanation: A snowman is typically seen in snowy landscapes, not on the moon. An astronaut is a common figure on the moon and shares similar shape and color, making it a good intermediate concept.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "An astronaut walking on the moon",
+    "A snowman on the moon"
+  ],
+  "switch_prompts_steps": [3]
+}
+
+### Input: A lion doing a handstand in the park
+### Output:
+a. Explanation: A lion are typically seen standing on all fours, not performing human acrobatic poses. Starting with a man, then a lion costume, creates a plausible bridge toward the uncommon final concept.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "A man doing a handstand in the park", 
+    "A man in a lion custom doing a handstand in the park", 
+    "A lion doing a handstand in the park"
+  ],
+  "switch_prompts_steps": [4, 8]
+}
+
+### Input: An howling wolf and a flying bat in midday
+### Output:
+a. Explanation: A howling wolf is typically shown at night, often with a full moon, and bats are also associated with darkness. Starting with a dog and bird—common in daytime scenes—helps guide the model toward this unusual midday pairing of nocturnal animals.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "An howling dog and a flying bird in midday",
+    "An howling wolf and a flying bat in midday"
+  ],
+  "switch_prompts_steps": [3]
+}
+
+### Input: A shoes tree in the meadow
+### Output:
+a. Explanation: Treating a “shoes tree” like an “apple tree” allows the model to build structure and object layout using familiar patterns. Introducing apples first grounds the scene in a biologically plausible layout before shifting to the surreal concept of shoes as fruit-like objects.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "A tree in the meadow",
+    "A tree full of apples, in the meadow",
+    "A tree full of shoes in the meadow"
+  ],
+  "switch_prompts_steps": [4, 8]
+}
+
+### Input: Unicorn driving an off-road vehicle in a desert
+### Output:
+a. Explanation: A unicorn is typically depicted standing on all fours, not in a human seated driving pose. Starting with a man, then introducing a unicorn costume, preserves realistic geometry and action before the full identity transition.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "A man driving an off-road vehicle in a desert",
+    "A man dressed as a unicorn driving an off-road vehicle in a desert",
+    A unicorn driving an off-road vehicle in a desert"
+  ],
+  "switch_prompts_steps": [3, 7]
+}
+
+### Input: A realistic image of SpongeBob SquarePants sitting in a restaurant
+### Output:
+a. Explanation: Starting with a realistic restaurant grounds the scene in structure and depth. Introducing a man in costume bridges the transition before revealing the fully unreal character without breaking visual coherence.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "A restaurant",
+    "A man in a SpongeBob costume sitting in a restaurant",
+    "SpongeBob SquarePants sitting in a restaurant"
+  ],
+  "switch_prompts_steps": [3, 7]
+}
+
+### Input: A dragon soaring above a city, blowing water
+### Output:
+a. Explanation: Dragons are typically associated with fire, but in this case the contradiction lies in the emission type and color. White smoke is visually similar to water mist in shape and texture, making it a suitable intermediate substitution. Placing “blowing water” at the start of the final prompt emphasizes the contradiction, once the model has resolved structure and is ready to express the unusual element.
+b. Final dictionary:
+{
+  "prompts_list": [
+	  "A dragon soaring above a city",
+    "A dragon soaring above a city, blowing white smoke",
+    "A dragon blowing water as it soars above a city"
+  ],
+  "switch_prompts_steps": [4, 7]
+}
+
+### Input: A turtle juggles fish in a forest
+### Output:
+a. Explanation: Juggling is a human action not associated with turtles. Starting with a man stabilizes pose and motion, while a humanoid turtle bridges the identity shift. Fish are introduced last, as they are small visual elements resolved later in the denoising process.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "A man skilfully juggles balls in a forest",
+    "A human turtle juggles balls",
+    "A turtle juggles balls",
+    "A turtle juggles fish"
+  ],
+  "switch_prompts_steps": [3, 5, 7]
+}
+
+### Input: Corgis pull a sled in the snow
+### Output:
+a. Explanation: “Husky dogs” provides a visually plausible starting point for sled pulling. Using “Corgi dogs” maintains the dog category, allowing the model to refine identity while keeping layout and semantics stable.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "Husky dogs pull a sled in the snow",
+    "Corgi dogs pull a sled in the snow"
+  ],
+  "switch_prompts_steps": [3]
+}
+
+### Input: 3 pink kittens
+### Output:
+a. Explanation: Pink is introduced early through pillows in a natural room setting. Since kittens are typically shown with realistic fur colors, delaying their appearance helps the model resolve the unusual color without disrupting the scene.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "A cozy room with three pink pillows on the floor",
+    "3 pink kittens"
+  ],
+  "switch_prompts_steps": [4]
+}
+
+### Input: A red sports car parked on a mountain road
+### Output:
+a. Explanation: This is a realistic and visually coherent scene, so no decomposition is needed.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "A red sports car parked on a mountain road"
+  ],
+  "switch_prompts_steps": []
+}
+
+### Input: Mr. Bean wearing an astronaut suit
+### Output:
+a. Explanation: Mr. Bean is a recognizable character and visually coherent in the prompt. Since the scene does not involve unrealistic colors or fine-detail contradictions, no decomposition is needed.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "Mr. Bean wearing an astronaut suit"
+  ],
+  "switch_prompts_steps": []
+}
+
+### Input: Mona lisa is wearing glasses
+### Output:
+a. Explanation: The Mona Lisa is a visually stable and iconic subject. Wearing glasses introduces a small, localized detail that does not disrupt overall composition or realism, so no decomposition is needed.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "Mona lisa is wearing glasses"
+  ],
+  "switch_prompts_steps": []
+}
+
+### Input: A pregnant woman is drinking beer
+### Output:
+a. Explanation: The pregnant body and seated posture define large-scale structure and are introduced early to establish coarse geometry. The drinking pose and glass follow, while beer—visually small but semantically contradictory during pregnancy—is delayed to the final stage, when the model is ready to resolve fine content without disrupting layout.
+b. Final dictionary:
+{
+  "prompts_list": [
+    "A pregnant woman sitting at a table",
+    "A pregnant woman drinking from a glass",
+    "A pregnant woman drinking beer"
+  ],
+  "switch_prompts_steps": [3, 5]
+}
+
+### Input: A grown man wearing a diaper
+### Output:
+a. Explanation: Diapers are typically associated with infants, not adults. To preserve realistic human anatomy and visual pose, the prompt begins with a neutral cloth item before transitioning to the semantically contradictory but visually similar diaper, which is introduced once the structure is stable.
+b. Final dictionary:
+{
+  "prompts_list": [
+   "A grown man wearing white cloth around his waist", 
+   "A grown man wearing a diaper",
+  ],
+  "switch_prompts_steps": [3]
+}
+
+### Input: A grown man wearing a diaper
+### Output:
+a. Explanation: The man's body defines the large-scale structure and must be stabilized early. The diaper is a smaller, semantically contradictory object, but its white color provides a smooth low-frequency cue. Starting with generic white cloth preserves shape and tone before introducing the diaper explicitly.
+b. Final dictionary:
+{
+  "prompts_list": [
+   "A grown man wearing white cloth around his waist", 
+   "A grown man wearing a diaper",
+  ],
+  "switch_prompts_steps": [3]
+}
+
+### Input: A garden hose spraying fire
+### Output:
+a. Explanation: Fire is a smooth, low-frequency emission that must be established early. A metal pipe provides a plausible flame source that stabilizes the emission layout. Once the fire is resolved, the garden hose replaces the pipe to introduce the visual contradiction without destabilizing the structure.
+b. Final dictionary:
+{
+  "prompts_list": [
+   "A metal pipe spraying fire", 
+   "A garden hose spraying fire"
+  ],
+  "switch_prompts_steps": [2]
+}

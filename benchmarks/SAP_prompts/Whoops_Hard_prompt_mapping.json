@@ -1,0 +1,1007 @@
+{
+  "A bouquet of flowers is upside down in a vase": {
+    "explanation": "Bouquets are conventionally seen upright, with the stems placed in the vase. Starting with a regular arrangement stabilizes the form and composition before introducing the uncommon inverted arrangement.",
+    "prompts_list": [
+      "A bouquet of flowers in a vase",
+      "A bouquet of flowers upside down in a vase"
+    ],
+    "switch_prompts_steps": [
+      6
+    ]
+  },
+  "A man is welding without a mask": {
+    "explanation": "Welding is typically performed with appropriate safety gear. Depicting a man engaged in the activity with safety gear helps establish the context of welding before introducing the anomaly of masklessness.",
+    "prompts_list": [
+      "A man welding with a mask",
+      "A man welding without a mask"
+    ],
+    "switch_prompts_steps": [
+      5
+    ]
+  },
+  "A wagon is being pushed from behind by two opposite facing horses horses": {
+    "explanation": "Horses are typically seen pulling wagons, not pushing. Starting with a pushable object stabilizes the expected push action, and introducing the horses last helps refine layout without initial friction.",
+    "prompts_list": [
+      "A wagon being pushed from behind",
+      "A wagon being pushed from behind by two horses",
+      "A wagon being pushed from behind by two opposite facing horses"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
+    ]
+  },
+  "A turn right street sign with a left turn arrow": {
+    "explanation": "Signs are structured with specific geometric forms and spatial logic. Introducing the left turn arrow last maintains visual consistency and logic within the sign's established design framework.",
+    "prompts_list": [
+      "A turn right street sign",
+      "A turn right street sign with a left turn arrow"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "car with the steering wheel right in the middle of the dash board": {
+    "explanation": "A car's layout is a high-level visual element, but a steering wheel in the middle is an uncommon sight. Starting with a normal car stabilizes the overall geometry before moving the steering wheel to the central location.",
+    "prompts_list": [
+      "A car",
+      "A car with the steering wheel in the middle of the dashboard"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "The portrait of the Mona Lisa depicts a stern male face.": {
+    "explanation": "The Mona Lisa is an iconic subject; starting with the portrait establishes composition and lighting to ensure scene stability before transitioning to the male facial features.",
+    "prompts_list": [
+      "The portrait of the Mona Lisa",
+      "The portrait of the Mona Lisa depicts a stern male face"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "Children are unhappy at Disneyland.\"": {
+    "explanation": "Disneyland is synonymous with joy. Begin with a generic theme park setting to introduce the layout before refining to Disneyland specifically, preserving emotional cues to conclude with the contradiction.",
+    "prompts_list": [
+      "Children are unhappy at a theme park",
+      "Children are unhappy at Disneyland"
+    ],
+    "switch_prompts_steps": [
+      5
+    ]
+  },
+  "An orange carved as a Jack O'Lantern.": {
+    "explanation": "Jack O'Lanterns are traditionally pumpkins, so starting with a pumpkin stabilizes traditional shape and scene before transitioning to an orange.",
+    "prompts_list": [
+      "A pumpkin carved as a Jack O'Lantern",
+      "An orange carved as a Jack O'Lantern"
+    ],
+    "switch_prompts_steps": [
+      5
+    ]
+  },
+  "A pen is being sharpened in a pencil sharpener.": {
+    "explanation": "Substituting a pencil for a pen initially helps stabilize visual structure and familiar object interaction before introducing the unusual act of sharpening a pen.",
+    "prompts_list": [
+      "A pencil is being sharpened in a pencil sharpener",
+      "A pen is being sharpened in a pencil sharpener"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "The Sphinx is decorated like a sarcophagus and located outside a Mayan temple": {
+    "explanation": "The Sphinx and Mayan temple are both large structures with significant visual detail, but they should be stabilized sequentially to avoid layout conflict. Introducing the Sphinx decor like a sarcophagus last avoids early distortion.",
+    "prompts_list": [
+      "The Sphinx located outside a Mayan temple",
+      "The Sphinx decorated like a sarcophagus located outside a Mayan temple"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "Shrek is blue.": {
+    "explanation": "Shrek is a distinct character with a recognizable green color. Using a simple \"blue ogre\" initially sets the stage for a color change before fully introducing Shrek to ensure visual coherence.",
+    "prompts_list": [
+      "A blue ogre",
+      "Shrek is blue"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A MacBook with a pear logo on it.": {
+    "explanation": "The MacBook layout and design should be established first to constrain layout. Substitute in a generic fruit logo temporarily, which maintains shape and design intention before switching to the specific pear logo.",
+    "prompts_list": [
+      "A MacBook with a fruit logo on it",
+      "A MacBook with a pear logo on it"
+    ],
+    "switch_prompts_steps": [
+      5
+    ]
+  },
+  "A woman hits an eight ball with a racket": {
+    "explanation": "Starting with a tennis ball, a typical object for rackets, and transitioning to the less common eight ball aligns progression from conventional to unconventional.",
+    "prompts_list": [
+      "A woman hits a tennis ball with a racket",
+      "A woman hits an eight ball with a racket"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "Movie goers nibble on vegetables instead of popcorn": {
+    "explanation": "The experience of being at the movies is easily recognized, and popcorn is typically associated with this setting. Starting with popcorn stabilizes the layout before bringing in the unusual vegetable substitution.",
+    "prompts_list": [
+      "Movie goers nibble on popcorn",
+      "Movie goers nibble on vegetables instead of popcorn"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A full pepper shaker turned upside down with nothing coming out of it.": {
+    "explanation": "The contradiction lies between the full shaker and its contents not falling out. Establishing the pepper shaker in its inverted position first helps the model set the improbable scene before adding the crucial aspect of no falling pepper.",
+    "prompts_list": [
+      "An upside-down pepper shaker",
+      "A full pepper shaker turned upside down with nothing coming out of it"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "The tiger King, joe exotic, is posing with a adult saber tooth tiger.": {
+    "explanation": "Joe Exotic is an iconic figure and poses are typically static. Introducing a regular tiger maintains size and pose, allowing the model to focus on identity and unique features of a saber-tooth tiger later.",
+    "prompts_list": [
+      "The tiger King, Joe Exotic, posing with an adult tiger",
+      "The tiger King, Joe Exotic, posing with a saber-tooth tiger"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A scale is balanced with one side being filled and other side being empty.": {
+    "explanation": "A scale cannot be logically balanced with only one side filled. Starting with a balanced scale with identical objects provides a coherent foundation before introducing the contradictory concept.",
+    "prompts_list": [
+      "A balanced scale with equal weights on both sides",
+      "A balanced scale with one side being filled and the other side being empty"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "Michelangelo's David is covered by a fig leaf.": {
+    "explanation": "The famous sculpture \u201cDavid\u201d presents a stable layout and identity achieved early in composition. Introducing a fig leaf\u2014a small, but semantically significant addition\u2014late ensures the sculpture remains anatomically correct and recognizable.",
+    "prompts_list": [
+      "Michelangelo's David",
+      "Michelangelo's David is covered by a fig leaf"
+    ],
+    "switch_prompts_steps": [
+      9
+    ]
+  },
+  "Chuck Norris struggles to lift weights": {
+    "explanation": "Chuck Norris, known for strength, is not typically depicted struggling. A generic character in a gym struggling with weights allows dynamic pose development before identity refinement.",
+    "prompts_list": [
+      "A man struggling to lift weights in a gym",
+      "Chuck Norris struggles to lift weights"
+    ],
+    "switch_prompts_steps": [
+      6
+    ]
+  },
+  "A woman's mirror reflection is wearing different clothes.": {
+    "explanation": "A human-looking mannequin serves as a precursor for a reflection with a minimal clothing proxy. The transition to the reflective surface allows the model to resolve the contradicting element without breaking spatial layout.",
+    "prompts_list": [
+      "A mannequin in front of a mirror",
+      "A woman and her reflection in the mirror",
+      "A woman's mirror reflection is wearing different clothes"
+    ],
+    "switch_prompts_steps": [
+      3,
+      7
+    ]
+  },
+  "A train on asphalt.": {
+    "explanation": "Trains are associated with tracks, not asphalt roads. Introducing a \"vehicle\" on asphalt emulates the expectation of asphalt transportation before transitioning to the train identity.",
+    "prompts_list": [
+      "A vehicle on asphalt",
+      "A train on asphalt"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "Lionel Messi playing tennis": {
+    "explanation": "Lionel Messi is strongly associated with soccer, presenting a semantic contradiction with tennis. Starting with a generic athlete enables correct pose and gear layout before transitioning to Messi's identity.",
+    "prompts_list": [
+      "A generic athlete playing tennis",
+      "Lionel Messi playing tennis"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A man jumping in to an empty swimming pool.": {
+    "explanation": "The pool structure precedes the action of jumping. \"Empty\" is emphasized at the end as it's a high-detail focus that contrasts typical filled imagery.",
+    "prompts_list": [
+      "A man about to jump into a swimming pool",
+      "A man jumping into an empty swimming pool"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A car with an upside down Mercedes-Benz logo.": {
+    "explanation": "Since car logos are typically upright, starting with a standard Mercedes-Benz car logo keeps initial visual balance, then transitioning to the surreal upside down appearance.",
+    "prompts_list": [
+      "A car with a Mercedes-Benz logo",
+      "A car with an upside down Mercedes-Benz logo"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "An upside down knife is about to slice a tomato": {
+    "explanation": "The idea of a knife slicing a tomato is natural, but its orientation (upside down) conflicts with expectations. Establish the tomato and knife layout first, then adjust the knife position to ensure clarity and feasibility.",
+    "prompts_list": [
+      "A knife about to slice a tomato",
+      "An upside down knife about to slice a tomato"
+    ],
+    "switch_prompts_steps": [
+      6
+    ]
+  },
+  "Dirty dishes in a bathroom sink": {
+    "explanation": "A kitchen sink is more typical for dirty dishes. Starting with a bathroom sink stabilizes the unusual primary setting, then the dishes are added to reflect their presence in an unexpected environment.",
+    "prompts_list": [
+      "A clean bathroom sink",
+      "Dirty dishes in a bathroom sink"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A roulette wheel is being used as a dart board.": {
+    "explanation": "A roulette wheel and dart board share a similar circular design. Starting with a dartboard stabilizes structure before introducing the roulette wheel's distinct features.",
+    "prompts_list": [
+      "A dart board",
+      "A roulette wheel used as a dart board"
+    ],
+    "switch_prompts_steps": [
+      2
+    ]
+  },
+  "A smartphone plugged into a typewriter.": {
+    "explanation": "A typewriter represents older technology and dominates large-scale shape and layout. Starting with a generic power cord enables the distribution of lines and connections, transitioning smoothly to the hybrid concept of the smartphone connection.",
+    "prompts_list": [
+      "A typewriter with a power cord",
+      "A smartphone plugged into a typewriter"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A passenger plane is parked in a parking lot.": {
+    "explanation": "A plane taxiing on a runway provides a visually coherent concept that shares spatial similarity with parking. Transitioning to a parking lot makes the layout shift plausible before merging with the full unconventional scene.",
+    "prompts_list": [
+      "A passenger plane taxiing on a runway",
+      "A passenger plane parked in a parking lot"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "Guests are laughing at a funeral.": {
+    "explanation": "Funerals are somber occasions traditionally associated with a quiet or solemn atmosphere. Setting the initial scene with a typical outdoor or indoor funeral environment establishes mood and context before introducing the unexpected emotional reaction.",
+    "prompts_list": [
+      "A funeral with guests",
+      "Guests are laughing at a funeral"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A cat is chasing a dog down the street": {
+    "explanation": "The prompt describes a visually coherent and plausible action; hence, no decomposition is necessary as it fits with natural behavior and context.",
+    "prompts_list": [
+      "A cat is chasing a dog down the street"
+    ],
+    "switch_prompts_steps": []
+  },
+  "The Statue of Liberty is holding a sword.": {
+    "explanation": "The Statue of Liberty typically holds a torch. Begin with its well-known pose before transitioning to the altered version holding a sword, allowing the model to appropriately blend realistic identity details early on.",
+    "prompts_list": [
+      "The Statue of Liberty",
+      "The Statue of Liberty holding a sword"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A rubix cube with ten squares of purple": {
+    "explanation": "A Rubik's cube typically holds colors in a fixed pattern. Introducing additional purple squares requires modifying a layout, using placeholder purple options first, before reaching the mathematical inaccuracy.",
+    "prompts_list": [
+      "A Rubik's cube with purple squares",
+      "A Rubik's cube with ten special purple squares"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A compass with North South South West points": {
+    "explanation": "Such a compass with duplicated direction labels disrupts conventional layout logic. Starting with a compass emphasizing unique directions stabilizes context before transitioning to a special alignment of duplicated points.",
+    "prompts_list": [
+      "A compass with North, East, West, South points",
+      "A compass with North South South West points"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A glass carafe tipped upside down with the contents of the glass not pouring out.": {
+    "explanation": "Begin with a typical scene of a glass carafe being tipped, to establish action and orientation. Introducing the static contents after stabilizes the scene, allowing the model to resolve the unusual physics without disrupting basic structure.",
+    "prompts_list": [
+      "A glass carafe tipped upside down",
+      "A glass carafe tipped upside down with the contents not pouring out"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "Lightning striking a dilapidated shack on a clear sunny day.": {
+    "explanation": "Establishing the setting starts with the clear sunny day and shack to establish ambient lighting and structure. The addition of lightning introduces the dynamic, high-frequency detail and contrast last.",
+    "prompts_list": [
+      "A dilapidated shack on a clear sunny day",
+      "Lightning striking a dilapidated shack on a clear sunny day"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "The cookie monster is eating apples.": {
+    "explanation": "The Cookie Monster is a well-known character, typically associated with eating cookies. Initial depiction stabilizes character identity, before associating it with the unexpected action of eating apples.",
+    "prompts_list": [
+      "The Cookie Monster",
+      "The Cookie Monster eating apples"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A man is given a purple blood transfusion.": {
+    "explanation": "The unusual blood color is the primary contradiction. Starting with the generic scene of a blood transfusion allows structure and activity to stabilize before introducing the color anomaly.",
+    "prompts_list": [
+      "A man is given a blood transfusion",
+      "A man is given a purple blood transfusion"
+    ],
+    "switch_prompts_steps": [
+      5
+    ]
+  },
+  "A mostly whole pomegranate inside a corked glass bottle": {
+    "explanation": "The glass bottle establishes transparency and reflection, which are crucial for containing the object. Introducing the pomegranate later stabilizes the unusual content within a familiar structure.",
+    "prompts_list": [
+      "A corked glass bottle",
+      "A mostly whole pomegranate inside a corked glass bottle"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A square apple": {
+    "explanation": "An apple\u2019s round shape needs to be restructured significantly. Starting with a cube-shaped fruit stabilizes the geometry before transitioning to an apple identity.",
+    "prompts_list": [
+      "A cube-shaped fruit",
+      "A square apple"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A place setting has two knives": {
+    "explanation": "Typical place settings have one knife, so initially introducing a standard dining setup stabilizes the overall layout before transitioning to the unusual double knife configuration.",
+    "prompts_list": [
+      "A traditional place setting",
+      "A place setting has two knives"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "a koala in an asia landscape": {
+    "explanation": "Koalas are generally found in native Australian settings rather than Asian landscapes. An empty abstract Asian landscape sets the scene before adding the koala, to help resolve potential conflicts in scene logic.",
+    "prompts_list": [
+      "An Asian landscape",
+      "A koala in an Asian landscape"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A mouse eats a snake": {
+    "explanation": "Predatory roles are reversed here, as mice are typically prey to snakes. Starting with a small creature eating something non-threatening establishes size and action before introducing the unexpected predator-prey relationship.",
+    "prompts_list": [
+      "A mouse eating a small fruit",
+      "A mouse eats a snake"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A field of carrots grow above ground": {
+    "explanation": "Carrots naturally grow underground, which contradicts the prompt. Starting with a field of flowers, then replacing them with carrots, maintains coherence while introducing the unfamiliar visual condition.",
+    "prompts_list": [
+      "A field of flowers",
+      "A field of carrots"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A pregnant woman eating raw salmon.": {
+    "explanation": "The pregnant body defines the large-scale structure and is introduced early. Eating is a common action, but raw salmon adds a semantically contradictory dietary element for pregnancy, so it's introduced last.",
+    "prompts_list": [
+      "A pregnant woman sitting at a table",
+      "A pregnant woman eating fish",
+      "A pregnant woman eating raw salmon"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
+    ]
+  },
+  "A tiger is starting at zebras in the savanna": {
+    "explanation": "A visually coherent scene placing a tiger in the savanna observing zebras is natural. The components are compatible in terms of time and place, so no decomposition is needed.",
+    "prompts_list": [
+      "A tiger is staring at zebras in the savanna"
+    ],
+    "switch_prompts_steps": []
+  },
+  "Greta Thunberg is holding a disposable plastic cup": {
+    "explanation": "Greta Thunberg is known for climate activism, opposing the use of disposable plastics. A generic young person in an environmental context bridges reality with this contradiction as the model refines identity.",
+    "prompts_list": [
+      "A young activist holding a reusable cup",
+      "Greta Thunberg holding a reusable cup",
+      "Greta Thunberg holding a disposable plastic cup"
+    ],
+    "switch_prompts_steps": [
+      3,
+      7
+    ]
+  },
+  "A fortune teller predicts the future with a basketball.": {
+    "explanation": "A crystal ball is a core visual element in fortune-telling. Using a glass ball as an intermediate retains shape and size while introducing the basketball last allows the scene to remain coherent with an unusual twist.",
+    "prompts_list": [
+      "A fortune teller predicting the future with a crystal ball",
+      "A fortune teller predicting the future with a basketball"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "An old man riding a unicycle": {
+    "explanation": "The concept of an old man riding a unicycle combines an unexpected subject with a challenging balancing act. Starting with a younger man stabilizes the pose and motion before enhancing character appearance.",
+    "prompts_list": [
+      "A man riding a unicycle",
+      "An old man riding a unicycle"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A hockey player drives a golf ball down the ice": {
+    "explanation": "Using a generic sports player with a puck aligns layout and action before introducing the unusual golf ball element, maintaining visual coherence.",
+    "prompts_list": [
+      "A hockey player with a puck on the ice",
+      "A hockey player drives a golf ball down the ice"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A Japanese tea ceremony uses coffee instead of tea": {
+    "explanation": "Starting with a traditional Japanese tea ceremony establishes the setting. Introducing coffee last emphasizes the cultural substitution without disrupting the ceremony's structure.",
+    "prompts_list": [
+      "A Japanese tea ceremony",
+      "A Japanese tea ceremony with coffee cups instead of tea cups",
+      "A Japanese tea ceremony uses coffee instead of tea"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
+    ]
+  },
+  "A man eats hamburgers in a baby chair": {
+    "explanation": "A baby chair typically suggests a small seat, incompatible with adult size, to counter this incompatibility, first use a large chair. Then swap to the smaller baby chair as scale reduces visual tension after the scene stabilizes.",
+    "prompts_list": [
+      "A man eats hamburgers in a large chair",
+      "A man eats hamburgers in a baby chair"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "The Girl with a Pearl Earring wears a golden hoop earring": {
+    "explanation": "The substitution of the earring type introduces a localized detail. Since the artwork provides a stable framework, no decomposition is needed.",
+    "prompts_list": [
+      "The Girl with a Pearl Earring wears a golden hoop earring"
+    ],
+    "switch_prompts_steps": []
+  },
+  "A chandelier is hanging low to the ground": {
+    "explanation": "Chandeliers are typically positioned high above, so starting with a hanging pendant light instead stabilizes the concept of a low-hanging light fixture visually before transitioning to a chandelier.",
+    "prompts_list": [
+      "A pendant light hanging low to the ground",
+      "A chandelier hanging low to the ground"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A cake wishes a happy 202nd birthday": {
+    "explanation": "A cake with text is common; starting with typical birthday decoration allows text introduction later. The specific message, including the unusual age, should be added when the model resolves finer detail.",
+    "prompts_list": [
+      "A decorated birthday cake",
+      "A birthday cake with 'Happy Birthday'",
+      "A birthday cake with 'Happy 202nd Birthday'"
+    ],
+    "switch_prompts_steps": [
+      3,
+      8
+    ]
+  },
+  "Goldilocks sleeps with four bears": {
+    "explanation": "Goldilocks and three bears is an iconic story setting, and bears are often depicted in groups of three with her. Introducing an additional bear alongside the familiar trio ensures visual coherence through narrative progression.",
+    "prompts_list": [
+      "Goldilocks sleeps with three bears",
+      "Goldilocks sleeps with four bears"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A pagoda sits in front of the Eiffel Tower": {
+    "explanation": "Both the pagoda and the Eiffel Tower are large structures that need an appropriate spatial relationship. By introducing the Eiffel Tower first, the model can focus on the landscape before adding the pagoda.",
+    "prompts_list": [
+      "The Eiffel Tower in a scenic view",
+      "A pagoda sits in front of the Eiffel Tower"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A man without protection next to a swarm of bees": {
+    "explanation": "Starting with a beekeeper in a suit next to bees emphasizes typical safety. The suit is removed last for the visually coherent yet alarming final scene.",
+    "prompts_list": [
+      "A beekeeper wearing protective gear next to a swarm of bees",
+      "A man without protection next to a swarm of bees"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A kiwi bird in a green bamboo forest": {
+    "explanation": "The distinctive green bamboo forest provides a natural background for the scene, and both are coherent, so the kiwi bird can be introduced immediately since it does not disrupt the layout.",
+    "prompts_list": [
+      "A kiwi bird in a green bamboo forest"
+    ],
+    "switch_prompts_steps": []
+  },
+  "Steve Jobs demonstrating a Microsoft tablet.": {
+    "explanation": "While there\u2019s a brand contradiction, this involves a known identity and action\u2014Steve Jobs presenting technology\u2014which doesn't cause significant layout disruption, allowing direct depiction.",
+    "prompts_list": [
+      "Steve Jobs demonstrating a Microsoft tablet"
+    ],
+    "switch_prompts_steps": []
+  },
+  "A butterfly is in a bee's hive": {
+    "explanation": "Butterflies are not typically found in hive interiors. Switching from bees to a hive-like environment provides a placeholder suited for early diffusion steps, then naturally setting the scene for the rare location of a butterfly.",
+    "prompts_list": [
+      "Bees inside a hive",
+      "A butterfly inside a hive"
+    ],
+    "switch_prompts_steps": [
+      5
+    ]
+  },
+  "A rainbow colored tank": {
+    "explanation": "Tanks are typically found in camouflage or single colors. Transitioning from a graffiti-covered tank provides a feasible intermediate containing multiple colors, before the final chromatic specification.",
+    "prompts_list": [
+      "A tank with graffiti",
+      "A rainbow colored tank"
+    ],
+    "switch_prompts_steps": [
+      6
+    ]
+  },
+  "Vikings ride on public transportation.": {
+    "explanation": "Vikings are typically associated with historical ships, not modern transportation. Starting with a generic group of people enables the scene to stabilize before introducing the unusual presence of Vikings.",
+    "prompts_list": [
+      "A group of people on public transportation",
+      "Vikings on public transportation"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A grown man has a baby's pacifier in his mouth": {
+    "explanation": "The grown man is established first for structure, while the pacifier, being a small but semantically significant detail, is added once the main identity is resolved.",
+    "prompts_list": [
+      "A grown man with a small object in his mouth",
+      "A grown man has a baby's pacifier in his mouth"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A gift wrapped junked car.": {
+    "explanation": "Gift wrapping is typically associated with small or new items, not junked cars. Start with a wrapped new car and move to a junked car to maintain structural and contextual plausibility.",
+    "prompts_list": [
+      "A gift wrapped new car",
+      "A gift wrapped junked car"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A rainbow is filling the stormy sky at night": {
+    "explanation": "Rainbows typically appear during the day following rain, making them unusual at night. Initial focus on \"a stormy night sky with lightning\" stabilizes dark color tones and flashes of light, before introducing the bright, colorful rainbow once the model can resolve contrasting elements.",
+    "prompts_list": [
+      "A stormy night sky with lightning",
+      "A rainbow filling the stormy sky at night"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "John Lennon using a MacBook.": {
+    "explanation": "John Lennon is a well-known figure and the task involves a realistic context, thus no decomposition is needed.",
+    "prompts_list": [
+      "John Lennon using a MacBook"
+    ],
+    "switch_prompts_steps": []
+  },
+  "A pizza box is full of sushi.": {
+    "explanation": "Starting with a pizza box stabilizes the large-scale structure. Introducing a placeholder with small, rounded objects like bread rolls bridges the visual transition before sushi, which shares a more refined shape and color pattern.",
+    "prompts_list": [
+      "An empty pizza box",
+      "A pizza box full of bread rolls",
+      "A pizza box full of sushi"
+    ],
+    "switch_prompts_steps": [
+      2,
+      5
+    ]
+  },
+  "A man with a wearing a dog recovery cone collar around his neck while staring at his dog\"": {
+    "explanation": "A basic standing man stabilizes the scene's vertical structure first. Transitioning to the cone aligns with when the model can manage this unusual accessory without disrupting basic pose or layout. The dog's inclusion follows, providing a logical focus for the man's gaze.",
+    "prompts_list": [
+      "A man standing",
+      "A man wearing a large white collar around his neck",
+      "A man wearing a dog recovery cone collar around his neck while staring at his dog"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
+    ]
+  },
+  "Paratroopers deploy out of hot air balloons.": {
+    "explanation": "Paratroopers are typically associated with airplanes. Starting with combat aircraft serves to establish the standard deployment vehicle before transitioning to the unusual source of hot air balloons.",
+    "prompts_list": [
+      "Paratroopers deploy out of a combat aircraft",
+      "Paratroopers deploy out of hot air balloons"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A woman is using an umbrella made of fishnet in the rain.": {
+    "explanation": "Umbrellas typically involve fabric that repels water, while fishnets offer no protection, creating visual contradiction. Establishing a regular umbrella focuses on stabilizing posture and action. The fishnet detail is introduced later, refining the model\u2019s focus on intricate contradiction.",
+    "prompts_list": [
+      "A woman using an umbrella in the rain",
+      "A woman using an umbrella made of fishnet in the rain"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A field of sunflowers with pink pedals.": {
+    "explanation": "Sunflowers naturally have yellow petals, so starting with a field of flowers establishes the general layout and pattern. Introducing pink flowers stabilizes the color change before resolving the final, specific subject of sunflowers with pink details.",
+    "prompts_list": [
+      "A field of flowers",
+      "A field of pink flowers",
+      "A field of sunflowers with pink petals"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
+    ]
+  },
+  "An eagle swimming under water": {
+    "explanation": "Eagles are known for flying, not swimming. Beginning with a duck, which naturally swims and shares similar body proportions, helps the transition to an eagle in this unusual scenario.",
+    "prompts_list": [
+      "A duck swimming underwater",
+      "An eagle swimming underwater"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A woman stands in front of a reversed reflection in a mirror.": {
+    "explanation": "Reversed reflections contradict standard optical expectations. Starting with a woman in front of a mirror establishes context, and introducing the reversed reflection capitalizes on this setup.",
+    "prompts_list": [
+      "A woman stands in front of a mirror",
+      "A woman stands in front of a reversed reflection in a mirror"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "Stars visible in the sky with a bright afternoon sun.": {
+    "explanation": "Stars are typically seen at night, not with afternoon sun. Starting with an afternoon sky and gradually introducing star-like glowing elements maintains realism before outlining a shared twilight.",
+    "prompts_list": [
+      "A bright afternoon sky",
+      "Stars visible in the sky with a bright afternoon sun"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "An airplane inside a small car garage.": {
+    "explanation": "An airplane typically requires a large space, while a car garage suggests confinement. Starting with a model plane or toy inside a garage bridges scale expectations.",
+    "prompts_list": [
+      "A model airplane inside a car garage",
+      "An airplane inside a small car garage"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "An owl is perched upside down on a branch": {
+    "explanation": "Owls are naturally perched upright, so introducing a bat\u2014a creature seen hanging upside down\u2014first stabilizes the unusual pose before switching to an owl with this unconventional posture.",
+    "prompts_list": [
+      "A bat hanging upside down on a branch",
+      "An owl hanging upside down on a branch"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A man in a wheel chair ascends steps": {
+    "explanation": "A man approaching stairs stabilizes scene layout and pose. A stair lift is phonetically and visually similar but logically plausible for ascending. Transitioning to a wheelchair ascent maintains coherence.",
+    "prompts_list": [
+      "A man approaching stairs",
+      "A man in a wheel chair using a stair lift",
+      "A man in a wheel chair ascends steps"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
+    ]
+  },
+  "Bach using sound mixing equipment.": {
+    "explanation": "Bach, known for his association with traditional instruments, is not commonly linked with modern sound equipment. Starting with a classic pianist using a harpsichord brings a suitable period-based posture before transitioning to the sound equipment context.",
+    "prompts_list": [
+      "A classic pianist using a harpsichord",
+      "Bach using sound mixing equipment"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A steam train is on a train track that is twisted like a roller coaster": {
+    "explanation": "The concept involves a typical train in an atypical scenario. Starting with a roller coaster car stabilizes the flow and transition to a traditional scene with a steam train keeps structural realism amidst implausible track layout.",
+    "prompts_list": [
+      "A roller coaster car on a track",
+      "A steam train on a train track twisted like a roller coaster"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "Roman centurions fire a canon.": {
+    "explanation": "Roman centurions are typically depicted with swords or spears, not modern artillery. Starting with soldiers firing a more traditional weapon preserves historical elements before introducing the anachronistic cannon.",
+    "prompts_list": [
+      "Roman centurions fire a catapult",
+      "Roman centurions fire a canon"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A crab with four claws.": {
+    "explanation": "Crabs typically have two prominent claws. To stabilize the scene, begin with a genetically plausible variation like a crab with unusually large claws to preserve proper balance before modifying the count.",
+    "prompts_list": [
+      "A crab with unusually large claws",
+      "A crab with four claws"
+    ],
+    "switch_prompts_steps": [
+      7
+    ]
+  },
+  "Elon Musk is wearing a shirt with a Meta logo": {
+    "explanation": "Elon Musk is a recognizable figure, while the Meta logo is a small detail on the shirt. Introducing them simultaneously maintains the identity and introduces the logo detail later, after the structural depiction is stable.",
+    "prompts_list": [
+      "Elon Musk wearing a shirt",
+      "Elon Musk wearing a shirt with a Meta logo"
+    ],
+    "switch_prompts_steps": [
+      5
+    ]
+  },
+  "The girl is roller skating on an ice rink": {
+    "explanation": "Roller skating is not typical on ice. Starting with ice skating stabilizes layout and scene grounding before translating to the improbable roller activity.",
+    "prompts_list": [
+      "The girl is ice skating on an ice rink",
+      "The girl is roller skating on an ice rink"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A butterfly swimming under the ocean": {
+    "explanation": "A swimming fish marks the ocean scene with consistent layout and action. Transitioning to a \"flying fish\" introduces an aquatic creature with partial leaping behaviour to bridge towards a solely flying form \u2014 the butterfly \u2014 in the unusual underwater scenario.",
+    "prompts_list": [
+      "A fish swimming under the ocean",
+      "A flying fish swimming under the ocean",
+      "A butterfly swimming under the ocean"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
+    ]
+  },
+  "Princess Diana stands in front of her grown son, Prince Harry.": {
+    "explanation": "Given the familial scene's realism and the historical visibility of Princess Diana, there is no need for intermediate prompts as this visually coherent setup can be achieved in one stage.",
+    "prompts_list": [
+      "Princess Diana stands in front of her grown son, Prince Harry"
+    ],
+    "switch_prompts_steps": []
+  },
+  "A children's playground set in the color black": {
+    "explanation": "Playgrounds are typically colorful. Beginning with a generic playground stabilizes structure before introducing the unusual color shift.",
+    "prompts_list": [
+      "A children's playground",
+      "A children's playground set in the color black"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A mug of hot tea with a plastic straw.": {
+    "explanation": "Hot beverages in mugs traditionally don't include straws, making this scene slightly incongruent. Introducing the mug with hot tea establishes the base object and medium, adding the uncommon element of a straw later when the model can resolve such subtle details.",
+    "prompts_list": [
+      "A mug of hot tea",
+      "A mug of hot tea with a plastic straw"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "An unpeeled banana in a blender": {
+    "explanation": "A blender is typically established in a kitchen setting. Introducing the banana last resolves the unusual combination of an unpeeled fruit within the mechanical setting without causing early disruption.",
+    "prompts_list": [
+      "A kitchen with a blender on the counter",
+      "An unpeeled banana in a blender"
+    ],
+    "switch_prompts_steps": [
+      5
+    ]
+  },
+  "Bell from Beauty and the Beast is getting ready to kiss the frog Prince": {
+    "explanation": "Bell and the Frog Prince are characters from different narratives. Introducing placeholders like \"a woman in a gown\" and \"a frog in a royal outfit\" helps establish visual roles and context before specifying their fairy tale identities.",
+    "prompts_list": [
+      "A woman in a gown is getting ready to kiss a frog in a royal outfit",
+      "Bell from Beauty and the Beast is getting ready to kiss the frog Prince"
+    ],
+    "switch_prompts_steps": [
+      7
+    ]
+  },
+  "A person's feet are facing opposite directions": {
+    "explanation": "Early stages can utilize human feet in a neutral standing position before introducing the physically unusual pose, preserving the basic floor and human structure.",
+    "prompts_list": [
+      "A person's feet standing forward",
+      "A person's feet are facing opposite directions"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A bowl of cereal in water.": {
+    "explanation": "A bowl of cereal is typically shown with milk or on a surface, not submerged in water. Presenting the bowl with milk initially establishes the concept of cereal in a container. Water is introduced last, as an unusual liquid substitution, so the model can adjust without disrupting the scene's stability.",
+    "prompts_list": [
+      "A bowl of cereal with milk",
+      "A bowl of cereal in water"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "The boy is playing frisbee with a disk made of porcelain": {
+    "explanation": "Given that frisbees are not typically made of porcelain, starting with a regular frisbee helps establish action and pose. Transitioning through a \"ceramic disk\" supports the material change without disrupting the activity.",
+    "prompts_list": [
+      "A boy playing frisbee with a regular plastic disk",
+      "The boy playing frisbee with a ceramic disk",
+      "The boy playing frisbee with a disk made of porcelain"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
+    ]
+  },
+  "A chef prepares a painting.": {
+    "explanation": "Preparing food is a natural context for a chef, and the action of \"preparing\" aligns with chopping vegetables first to establish a base of culinary engagement, before transitioning to the unconventional task of preparing a painting.",
+    "prompts_list": [
+      "A chef preparing ingredients in a kitchen",
+      "A chef preparing a painting on an easel"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A dragon is blowing wate": {
+    "explanation": "Typically, dragons are associated with blowing fire. Introducing white smoke provides a visual intermediary that mimics water mist, easing the shift to the final concept at later stages.",
+    "prompts_list": [
+      "A dragon blowing white smoke",
+      "A dragon blowing water"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "The lip of pitcher is on the same side as the handle": {
+    "explanation": "Typically, the pour lip and handle of a pitcher are on opposite sides for practical use, making this an unusual design alteration. The transition starts with a standard pitcher, emphasizing conventional structure before adding the spatial anomaly.",
+    "prompts_list": [
+      "A standard pitcher with the lip opposite the handle",
+      "A pitcher with the lip on the same side as the handle"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "Albert Einstein is driving a drag racing car": {
+    "explanation": "Albert Einstein is a recognizable figure and plausible in an unusual context if introduced after the basic driving setup. Starting with a generic race car driver in the car, then overlaying Einstein's identity and era-appropriate elements untangles the cross-era conflict gradually.",
+    "prompts_list": [
+      "A race car driver in a drag racing car",
+      "Albert Einstein driving a drag racing car"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A soccer player is about to kick a bowling ball": {
+    "explanation": "A soccer player kicking a bowling ball introduces a weight mismatch not typical in the sport. Starting with a regular soccer scene and transitioning to using a substitute object helps align structure before emphasizing the unusual target action.",
+    "prompts_list": [
+      "A soccer player is about to kick a soccer ball",
+      "A soccer player is about to kick a bowling ball"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A balloon is lifting up a package": {
+    "explanation": "Balloons and packages differ in weight and size. Starting with a cluster of balloons replaces lift dynamics naturally before refining the lighter-lifting singular balloon.",
+    "prompts_list": [
+      "A cluster of balloons lifting up a package",
+      "A balloon is lifting up a package"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "Bruce lee is dressed in a yellow Leotard and tutu practicing ballet.": {
+    "explanation": "Bruce Lee is iconic with martial arts. The leotard aligns with action-ready clothing, while the tutu and ballet elements are gradually introduced to maintain stability and resolve the surreal contrast.",
+    "prompts_list": [
+      "Bruce Lee dressed in a yellow leotard",
+      "Bruce Lee dressed in a yellow leotard and tutu",
+      "Bruce Lee dressed in a yellow leotard and tutu practicing ballet"
+    ],
+    "switch_prompts_steps": [
+      3,
+      7
+    ]
+  }
+}
