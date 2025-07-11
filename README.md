@@ -37,7 +37,7 @@ uv venv
 source .venv/bin/activate
 
 4. Install dependencies:
-uv pip install
+uv pip install --requirements pyproject.toml
 
 This will install all required packages listed in pyproject.toml and lock their exact versions using uv.lock.
 ```
