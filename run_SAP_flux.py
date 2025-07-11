@@ -16,6 +16,7 @@ def parse_input_arguments():
     parser.add_argument('--width', type=int, default=1024, help="define the generated image width")
     parser.add_argument('--seeds_list', nargs='+', type=int, default=[30498], help="define the list of seeds for the prompt generated images")
     parser.add_argument('--prompt', type=str, default="A bear is performing a handstand in the park")
+    parser.add_argument('--llm', type=str, default="GPT", help="define the llm to be used, support GPT and Zephyr")
     args = parser.parse_args()
     return args
 
@@ -47,7 +48,7 @@ def generate_models_params(args, SAP_prompts):
 
 def run(args):
     # generate prompt decomposition
-    SAP_prompts = LLM_SAP(args.prompt, key=API_KEY)[0] # using [0] because of a single prompt decomposition
+    SAP_prompts = LLM_SAP(args.prompt, llm=args.llm, key=API_KEY)[0] # using [0] because of a single prompt decomposition
     params = generate_models_params(args, SAP_prompts)
     # Load model
     model = load_model()
@@ -61,6 +62,5 @@ def main():
     # pass update args with defualts
     run(args)
     
-
 if __name__ == "__main__":
     main()

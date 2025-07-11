@@ -5,9 +5,11 @@ description = "Code for the SAP paper"
 dependencies = [
     "accelerate>=0.17.0",
     "diffusers",
+    "gradio>=4.44.1",
     "numpy>=2.0.2",
     "protobuf>=6.31.1",
     "sentencepiece>=0.2.0",
+    "spaces>=0.37.1",
     "torch>=2.7.1",
     "transformers>=4.52.4",
 ]

@@ -209,18 +209,6 @@ b. Final dictionary:
   "switch_prompts_steps": [3]
 }
 
-### Input: A grown man wearing a diaper
-### Output:
-a. Explanation: The man's body defines the large-scale structure and must be stabilized early. The diaper is a smaller, semantically contradictory object, but its white color provides a smooth low-frequency cue. Starting with generic white cloth preserves shape and tone before introducing the diaper explicitly.
-b. Final dictionary:
-{
-  "prompts_list": [
-   "A grown man wearing white cloth around his waist", 
-   "A grown man wearing a diaper",
-  ],
-  "switch_prompts_steps": [3]
-}
-
 ### Input: A garden hose spraying fire
 ### Output:
 a. Explanation: Fire is a smooth, low-frequency emission that must be established early. A metal pipe provides a plausible flame source that stabilizes the emission layout. Once the fire is resolved, the garden hose replaces the pipe to introduce the visual contradiction without destabilizing the structure.

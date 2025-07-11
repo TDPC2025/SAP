@@ -3,15 +3,84 @@ import json
 import re
 import ast
 
-def LLM_SAP(prompts_list, key):
+
+def LLM_SAP(prompts_list, llm='GPT', key='', llm_model=None):
     if isinstance(prompts_list, str):
         prompts_list = [prompts_list]
-    result = LLM_SAP_batch(prompts_list, key)
-    
+    if llm == 'Zephyr':
+        result = LLM_SAP_batch_Zephyr(prompts_list, llm_model)
+    elif llm == 'GPT':
+        result = LLM_SAP_batch_gpt(prompts_list, key)
     return result
 
-def LLM_SAP_batch(prompts_list, key):
-    print("### run LLM_SAP_batch ###")
+# Load the Zephyr model once and reuse it
+def load_Zephyr_pipeline():
+    from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
+    import torch
+
+    model_id = "HuggingFaceH4/zephyr-7b-beta"
+
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_id,
+        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+        device_map="auto"
+    )
+
+    # Zephyr prefers specific generation parameters to stay aligned
+    pipe = pipeline(
+        "text-generation",
+        model=model,
+        tokenizer=tokenizer,
+        return_full_text=False,
+        max_new_tokens=512,  # you can tune this
+        do_sample=True,
+        temperature=0.7,
+        top_p=0.9,
+        eos_token_id=tokenizer.eos_token_id
+    )
+
+    return pipe
+    
+
+def LLM_SAP_batch_Zephyr(prompts_list, llm_model):
+    print("### run LLM_SAP_batch with zephyr-7b-beta###")
+
+    # Load templates
+    with open('llm_interface/template/template_SAP_system_short.txt', 'r') as f:
+        template_system = ' '.join(f.readlines())
+
+    with open('llm_interface/template/template_SAP_user.txt', 'r') as f:
+        template_user = ' '.join(f.readlines())
+
+    numbered_prompts = [f"### Input {i + 1}: {p}\n### Output:" for i, p in enumerate(prompts_list)]
+    prompt_user = template_user + "\n\n" + "\n\n".join(numbered_prompts)
+    full_prompt = template_system + "\n\n" + prompt_user
+
+    # Load Zephyr
+    if llm_model is None:
+        pipe = load_Zephyr_pipeline()
+    else: 
+        pipe = llm_model
+
+    # zephyr
+    # Run inference
+    output = pipe(
+        full_prompt,
+        max_new_tokens=256,
+        temperature=0.7,
+        do_sample=True,
+        top_p=0.9,
+        return_full_text=False
+    )[0]["generated_text"]
+    
+    # Parse output
+    print(f"output: {output}")
+    parsed_outputs = parse_batched_llm_output(output, prompts_list)
+    return parsed_outputs
+
+def LLM_SAP_batch_gpt(prompts_list, key):
+    print("### run LLM_SAP_batch with gpt-4o ###")
 
     url = "https://api.openai.com/v1/chat/completions"
     api_key = key
@@ -50,25 +119,26 @@ def LLM_SAP_batch(prompts_list, key):
     obj=response.json()
     
     text=obj['choices'][0]['message']['content']
-
-    parsed_outputs = parse_batched_gpt_output(text, prompts_list)
+    print(f"text: {text}")
+    parsed_outputs = parse_batched_llm_output(text, prompts_list)
 
     return parsed_outputs
 
 
-def parse_batched_gpt_output(gpt_output_text, original_prompts):
+def parse_batched_llm_output(llm_output_text, original_prompts):
     """
-    gpt_output_text: raw string returned by GPT-4o for multiple prompts
+    llm_output_text: raw string returned by the llm for multiple prompts
     original_prompts: list of the multiple original input strings
     """
-    outputs = re.split(r"### Input \d+: ", gpt_output_text)
+    outputs = re.split(r"### Input \d+: ", llm_output_text)
     results = []
 
-    for i, out in enumerate(outputs):
+    for i in range(len(original_prompts)):
+        out = outputs[i]
         cleaned = out.strip()
-        prompt_text = original_prompts[i]
+        print(f"original_prompts: {original_prompts}")
         try:
-            result = get_params_dict_SAP(cleaned, prompt_text)
+            result = get_params_dict_SAP(cleaned)
             results.append(result)
         except Exception as e:
             print(f"Failed to parse prompt {i+1}: {e}")
@@ -76,9 +146,9 @@ def parse_batched_gpt_output(gpt_output_text, original_prompts):
     return results
 
 
-def get_params_dict_SAP(response, prompt):
+def get_params_dict_SAP(response):
     """
-    Parses the LLM output from PromptFlow-style few-shot prompts.
+    Parses the LLM output from SAP-style few-shot prompts.
     Cleans up Markdown-style code fences and returns a dict.
     """
     try:
@@ -96,7 +166,6 @@ def get_params_dict_SAP(response, prompt):
         final_dict = ast.literal_eval(dict_str)
 
         return {
-            # "prompt": prompt,
             "explanation": explanation,
             "prompts_list": final_dict["prompts_list"],
             "switch_prompts_steps": final_dict["switch_prompts_steps"]
