@@ -1,0 +1,8 @@
+title: SAP – Prompt Decomposition Demo
+emoji: 🌀
+colorFrom: violet
+colorTo: indigo
+sdk: gradio
+sdk_version: 5.18.0
+app_file: app.py
+pinned: false
