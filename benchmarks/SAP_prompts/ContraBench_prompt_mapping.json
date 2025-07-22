@@ -1,491 +1,4 @@
 {
-  "a snake eating a small golden guitar": {
-    "explanation": "Snakes are typically seen eating prey like rodents, not objects like guitars. Starting with a mouse provides a realistic proxy for the initial action, transitioning to the unusual and detailed target as the model refines detail.",
-    "prompts_list": [
-      "A snake eating a mouse",
-      "A snake eating a small golden guitar"
-    ],
-    "switch_prompts_steps": [
-      6
-    ]
-  },
-  "Babylon tower with two hands": {
-    "explanation": "The Babylon tower's architectural layout needs to stabilize before adding anthropomorphic features, which could disrupt structure. Introducing a statue with hands provides a transition towards complex structure without breaking visual coherence.",
-    "prompts_list": [
-      "Babylon tower",
-      "A statue of Babylon tower with hands"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A photorealistic photo of SpongeBob SquarePants dancing ballet": {
-    "explanation": "SpongeBob's cartoon nature conflicts with photorealistic style. Starting with a realistic dancer grounds the complex action and setting, transitioning to SpongeBob's identity once structure is established.",
-    "prompts_list": [
-      "A photorealistic photo of a dancer in ballet pose",
-      "SpongeBob SquarePants in a photorealistic ballet dance"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A baseball player backswing a yellow ball with a golf club": {
-    "explanation": "Swinging a baseball bat and using a golf club are distinct actions. Starting with a baseball player using a bat stabilizes action and motion. Switching to a golf club maintains realism while finally introducing the unusual yellow ball.",
-    "prompts_list": [
-      "A baseball player swinging a bat",
-      "A baseball player swinging a golf club",
-      "A baseball player backswinging a yellow ball with a golf club"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A flamingo walks with flippers on it feets": {
-    "explanation": "Flamingos' unique leg structure is visually prominent. Starting with a realistic beach scene featuring flamingos introduces familiar silhouettes, transitioning to the unusual footwear choice once the model resolves the basic layout.",
-    "prompts_list": [
-      "A flamingo walking along the beach",
-      "A flamingo walks with flippers on its feet"
-    ],
-    "switch_prompts_steps": [
-      5
-    ]
-  },
-  "A golf egg in wooden pan": {
-    "explanation": "A golf ball and an egg share similar shape and size, which allows for a mutual visualization as the prompt progresses. Starting with a golf ball stabilizes visual expectations before introducing the rare concept of an egg designed for golf.",
-    "prompts_list": [
-      "A golf ball in a wooden pan",
-      "A golf egg in a wooden pan"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A cubic egg in wooden pan": {
-    "explanation": "(Note: input 3 is identical to input 2) A cube contrasts with an egg's natural form. First visualize a generic cube in a pan to cement spatial layouts, followed by introducing the egg concept in its cubic form.",
-    "prompts_list": [
-      "A shiny cube in a wooden pan",
-      "A cubic egg in a wooden pan"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A horse with a hump": {
-    "explanation": "Horses are generally depicted with a smooth back, unlike camels with humps. To visualize the hump naturally, beginning with a camel stabilizes unusual anatomy before switching to the final equine form.",
-    "prompts_list": [
-      "A camel",
-      "A horse with a hump"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A watercolor painting and a marble statue in the garden": {
-    "explanation": "Both a watercolor painting and a marble statue add distinct artistic depth to a scene but share no transitional compatibility issues or visual contradiction. Despite the material and artistic nature differences, both can be introduced simultaneously without disturbing the overall layout.",
-    "prompts_list": [
-      "A watercolor painting and a marble statue in the garden"
-    ],
-    "switch_prompts_steps": []
-  },
-  "A man wearing a gown": {
-    "explanation": "The scene is visually coherent, as it resembles traditional dressing or costume without inherent spatial or temporal contradictions.",
-    "prompts_list": [
-      "A man wearing a gown"
-    ],
-    "switch_prompts_steps": []
-  },
-  "A house with a circular door": {
-    "explanation": "Circular doors are architecturally uncommon but not visually incoherent when incorporated into house designs, especially in fantasy-themed settings. No decomposition is needed.",
-    "prompts_list": [
-      "A house with a circular door"
-    ],
-    "switch_prompts_steps": []
-  },
-  "A house with a triangular door": {
-    "explanation": "Triangular doors are unconventional yet do not disrupt the visual logic of a house, particularly in imaginative or stylized architecture. No decomposition is needed.",
-    "prompts_list": [
-      "A house with a triangular door"
-    ],
-    "switch_prompts_steps": []
-  },
-  "A tiny elephant paddles out of a walnut shell in a river": {
-    "explanation": "The walnut shell, being a unique and small visual element, anchors the scene in phase two as an oversized object substituting for a boat prior to the introduction of the surreal, scale-changing tiny elephant.",
-    "prompts_list": [
-      "A walnut shell floating in a river",
-      "A tiny elephant paddles out of a walnut shell in a river"
-    ],
-    "switch_prompts_steps": [
-      5
-    ]
-  },
-  "A man juggles tiny elephants": {
-    "explanation": "Human jugglers are common and provide a realistic action for establishing pose and movement. Tiny elephants introduce the surreal element last, stabilizing structure before addressing fine detail.",
-    "prompts_list": [
-      "A man juggling small balls",
-      "A man juggling tiny elephants"
-    ],
-    "switch_prompts_steps": [
-      5
-    ]
-  },
-  "A man giving a piggyback ride to a tiny elephant": {
-    "explanation": "A piggyback ride usually involves a child or another person, making a child in this position a suitable starting point to establish structure. Transitioning to a pig-in-costume preserves size and shape cues, allowing the model to transition to the tiny elephant without geometry disruption.",
-    "prompts_list": [
-      "A man giving a piggyback ride to a child",
-      "A man giving a piggyback ride to a pig in costume",
-      "A man giving a piggyback ride to a tiny elephant"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A pretzel snake": {
-    "explanation": "A pretzel and a snake share curves and twists, making a braided pretzel a good initial visual to establish shape. Transitioning to a snake-like food item maintains visual coherence before the final surreal concept.",
-    "prompts_list": [
-      "A braided pretzel",
-      "A snake-like bread",
-      "A pretzel snake"
-    ],
-    "switch_prompts_steps": [
-      3,
-      5
-    ]
-  },
-  "A chicken is smiling": {
-    "explanation": "Chickens have fixed expressions, making smiling a biologically contradicting concept. Start with a chicken to ground visual authenticity, then morph toward its expression through a cartoonish transition.",
-    "prompts_list": [
-      "A chicken",
-      "A cartoon chicken with exaggerated features",
-      "A chicken is smiling"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A grandma is ice skating on the roof": {
-    "explanation": "A figure ice skating is typically placed on an appropriate surface. Starting on the ground stabilizes motion and posture, progressing to a roof setting once the model has familiarized with action and the individual.",
-    "prompts_list": [
-      "A grandma ice skating on a frozen pond",
-      "A grandma ice skating on the roof"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "Coffee is pouring from clouds over the city": {
-    "explanation": "Rain from clouds is an expected visual, making it a stable start. Transitioning from rain to an abstract brown liquid mid-way allows for a smoother introduction of the non-standard coffee element without disrupting scene coherence.",
-    "prompts_list": [
-      "Rain pouring from clouds over the city",
-      "Brown liquid pouring from clouds over the city",
-      "Coffee pouring from clouds over the city"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "An archer is shooting flowers with a bow": {
-    "explanation": "Flowers as projectiles disrupt typical archery scenarios. Starting with arrows transitions naturally from typical to surreal as the scene progresses.",
-    "prompts_list": [
-      "An archer is shooting arrows with a bow",
-      "An archer is shooting flowers with a bow"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A volcano is filled with tea": {
-    "explanation": "The solid surface of a filled volcano is visually stable; introducing colorful lava as a liquid placeholder ensures the layout and shape are preserved before switching to tea, which contrasts strongly in narrative rather than visual terms.",
-    "prompts_list": [
-      "A volcano is filled with lava",
-      "A volcano is filled with tea"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A snake with feet": {
-    "explanation": "A snake's form is distinct from a footed creature. Starting with a legless lizard stabilizes movement and body layout, closer to a mixed-concept form, before the final shift to a snake with feet.",
-    "prompts_list": [
-      "A legless lizard crawling",
-      "A mutant snake with small feet",
-      "A snake with feet"
-    ],
-    "switch_prompts_steps": [
-      5,
-      8
-    ]
-  },
-  "A realistic photo of an elephant wearing slippers": {
-    "explanation": "While elephants aren't typically associated with footwear, the visual contradiction isn't significant enough to destabilize realism. The scene can be created using known elements without decomposition.",
-    "prompts_list": [
-      "A realistic photo of an elephant wearing slippers"
-    ],
-    "switch_prompts_steps": []
-  },
-  "A muscular ferret in the woods": {
-    "explanation": "The structure and layout of the woodland scene should be set up first due to its dominance. A regular ferret follows, stabilizing the animal's presence before introducing the unusual and detailed concept of muscularity.",
-    "prompts_list": [
-      "A ferret in the woods",
-      "A muscular ferret in the woods"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "a lion puts make-up on in the boudoir": {
-    "explanation": "Lions are not typically associated with indoor settings or human actions like applying make-up. Starting with a human in a boudoir stabilizes the setting and action as the scene transitions to the unusual concept of a lion with cosmetics.",
-    "prompts_list": [
-      "A woman puts make-up on in the boudoir",
-      "A lion puts make-up on in the boudoir"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A mosquito pulling a royal carriage through Times Square": {
-    "explanation": "Mosquitoes are small and delicate, making the proposition of pulling a large carriage contradictory. Starting with a horse provides a scale-appropriate way to stabilize the scene before introducing the mosquito in this unusually grand task.",
-    "prompts_list": [
-      "A horse pulling a royal carriage through Times Square",
-      "A mosquito pulling a royal carriage through Times Square"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A surgeon slicing vegetables in an operating room": {
-    "explanation": "Surgeons are typically associated with medical procedures and delicate instruments. Beginning with a surgeon using surgical tools stabilizes the scene, allowing for a later, smooth introduction of the unusual act of slicing vegetables.",
-    "prompts_list": [
-      "A surgeon performing surgery in an operating room",
-      "A surgeon slicing vegetables in an operating room"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A knight wearing flippers snorkeling in a coral reef": {
-    "explanation": "Knights are historically linked to armor and land-based environments, not water sports. Starting with a snorkeler in the coral reef establishes the setting before transitioning to the surreal image of a knight.",
-    "prompts_list": [
-      "A snorkeler in a coral reef",
-      "A knight wearing flippers snorkeling in a coral reef"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A penguin selling ice cream in the Sahara": {
-    "explanation": "Penguins are typically associated with cold environments and ice cream sales are incongruous in the desert's heat. Starting with a human ice cream vendor helps stabilize the scene before introducing the penguin in this unlikely salesman role.",
-    "prompts_list": [
-      "A person selling ice cream in the Sahara",
-      "A penguin selling ice cream in the Sahara"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A turtle riding a skateboard down stairs": {
-    "explanation": "Turtles aren't typically depicted using skateboards or navigating stairs. Introducing a child on a skateboard stabilizes the dynamic action and pose. Transitioning to a humanoid turtle bridges the identity shift, allowing the final unusual concept to manifest coherently.",
-    "prompts_list": [
-      "A child riding a skateboard down stairs",
-      "A humanoid turtle riding a skateboard down stairs",
-      "A turtle riding a skateboard down stairs"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "An elephant performing a handstand on one leg": {
-    "explanation": "Elephants are typically seen standing firmly on four legs. Starting with a gymnast creates a plausible pose stabilization, while a large humanoid elephant bridges the identity shift to maintain balance and leg focus, before the final unusual action.",
-    "prompts_list": [
-      "A gymnast performing a handstand",
-      "A humanoid elephant attempting a handstand",
-      "An elephant performing a handstand on one leg"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A snake painting a self-portrait on an easel": {
-    "explanation": "Painting an easel is an inherently human action. Introducing an artist establishes activity and pose. Transitioning to a humanoid snake guides the identity shift while maintaining the focus on painting before the final unusual concept emerges fully.",
-    "prompts_list": [
-      "An artist painting a self-portrait on an easel",
-      "A humanoid snake painting on an easel",
-      "A snake painting a self-portrait on an easel"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A lion typing on a laptop with glasses on": {
-    "explanation": "Using a generic office worker stabilizes the typing posture and computer use. Transitioning to a humanoid lion allows the model to adjust for the glasses and workspace, creating a bridge to the full identity transition in the surreal final pose.",
-    "prompts_list": [
-      "An office worker typing on a laptop",
-      "A humanoid lion typing on a laptop with glasses",
-      "A lion typing on a laptop with glasses on"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A lighthouse glowing inside a dense forest": {
-    "explanation": "Normally, lighthouses are situated in open coastal settings, not forests. Starting with a forest clears the space for dense structure, with a tower casting light as a compatible proxy, allowing the scene to transition smoothly to the unusual final combination.",
-    "prompts_list": [
-      "A dense forest",
-      "A tower glowing inside a dense forest",
-      "A lighthouse glowing inside a dense forest"
-    ],
-    "switch_prompts_steps": [
-      2,
-      5
-    ]
-  },
-  "A shark flying over the desert dunes": {
-    "explanation": "Sharks are aquatic creatures and placing them in a desert requires a substitute with a similar body layout. Starting with a bird maintains positioning logic while building the unusual concept.",
-    "prompts_list": [
-      "A large bird flying over the desert dunes",
-      "A shark flying over the desert dunes"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A firefighter calmly roasting marshmallows over a burning house": {
-    "explanation": "A firefighter typically responds to fires, which is a contradictory task to roasting marshmallows. Introducing a person first helps establish actions and postures before presenting the uncommon firefighter context.",
-    "prompts_list": [
-      "A person calmly roasting marshmallows around a campfire",
-      "A firefighter calmly roasting marshmallows over a burning house"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A snake tying shoelaces before a race": {
-    "explanation": "Snakes don't possess limbs necessary for tying shoelaces. Introducing a person first stabilizes the pose and action required for the fine detail of shoelaces.",
-    "prompts_list": [
-      "A person tying shoelaces before a race",
-      "A snake tying shoelaces before a race"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A penguin doing parkour between skyscrapers": {
-    "explanation": "Penguins aren’t typically associated with human-like activities such as parkour. Starting with a human athlete will stabilize the pose and movement necessary before transitioning to the penguin.",
-    "prompts_list": [
-      "A human doing parkour between skyscrapers",
-      "A penguin doing parkour between skyscrapers"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A turtle mid-jump on a trampoline": {
-    "explanation": "Turtles are slow-moving animals and don't naturally jump. Introducing a human character first captures the motion and is less visually jarring when transitioning to the turtle.",
-    "prompts_list": [
-      "A human mid-jump on a trampoline",
-      "A turtle mid-jump on a trampoline"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A giraffe browsing books in a candle-lit underground library": {
-    "explanation": "A giraffe in an underground library is visually incompatible as giraffes are large and typically seen in open landscapes. Introducing a smaller, more library-appropriate animal helps in bridging the concept before adding the giraffe browsing books.",
-    "prompts_list": [
-      "A mouse browsing books in a candle-lit underground library",
-      "A giraffe browsing books in a candle-lit underground library"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A barn built atop a skyscraper rooftop": {
-    "explanation": "A barn is typically found in rural areas and visually contrasts with a skyscraper. Introducing a helipad as a placeholder helps maintain the rooftop's setting before adding the barn in the final scene.",
-    "prompts_list": [
-      "A helipad built atop a skyscraper rooftop",
-      "A barn built atop a skyscraper rooftop"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A dolphin walking a dog through downtown": {
-    "explanation": "A dolphin on land is uncommon and challenges anatomy concepts. Starting with a person walking a dog maintains realism, transitioning to a person in a dolphin costume before the actual dolphin takes over, thus stabilizing form and pose.",
-    "prompts_list": [
-      "A person walking a dog through downtown",
-      "A person in a dolphin costume walking a dog through downtown",
-      "A dolphin walking a dog through downtown"
-    ],
-    "switch_prompts_steps": [
-      4,
-      7
-    ]
-  },
-  "A cat giving a lecture in a university auditorium": {
-    "explanation": "A cat in a human role is an unusual concept. Starting with a human professor in the auditorium helps stabilize the scene, before changing to a person in a cat costume, and finally replacing the person with a regular cat giving a lecture.",
-    "prompts_list": [
-      "A human professor giving a lecture in a university auditorium",
-      "A person in a cat costume giving a lecture in a university auditorium",
-      "A cat giving a lecture in a university auditorium"
-    ],
-    "switch_prompts_steps": [
-      4,
-      8
-    ]
-  },
-  "A dog walking its human on a leash": {
-    "explanation": "The role reversal with a dog walking a human is conceptually contradictory. Starting with a human walking a dog maintains visual cohesion, introducing a surreal dog costume beforehand assists the model in resolving this unique inversion without disrupting visual logic.",
-    "prompts_list": [
-      "A human walking their dog on a leash",
-      "A person in a dog costume walking their human on a leash",
-      "A dog walking its human on a leash"
-    ],
-    "switch_prompts_steps": [
-      4,
-      9
-    ]
-  },
-  "A police officer robbing a bank with a banana": {
-    "explanation": "A police officer typically represents law enforcement, contrasting strongly with the act of robbing. Therefore, starting with a generic masked figure establishes the criminal act, which is visually consistent with the setting. Introducing the banana as a placeholder before revealing the officer retains layout coherence without immediate identity conflict.",
-    "prompts_list": [
-      "A masked figure robbing a bank",
-      "A masked figure robbing a bank with a banana",
-      "A police officer robbing a bank with a banana"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A forest of broccoli trees taller than buildings": {
-    "explanation": "Forests and buildings provide structure and scale contrast, naturally. Starting with a typical forest helps stabilize environment, transitioning to broccoli trees for the surreal element, offering visual coherence before amplifying scale disparity.",
-    "prompts_list": [
-      "A forest",
-      "A forest of broccoli trees",
-      "A forest of broccoli trees taller than buildings"
-    ],
-    "switch_prompts_steps": [
-      3,
-      5
-    ]
-  },
-  "A cruise ship parked in a bathtub": {
-    "explanation": "A cruise ship is vastly larger than a bathtub, introducing spatial contradiction. Using a toy boat as a stand-in first stabilizes scale before introducing the full-size cruise ship.",
-    "prompts_list": [
-      "A toy boat floating in a bathtub",
-      "A large cruise ship parked in a bathtub"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
   "a professional boxer does a split": {
     "explanation": "Professional boxers are typically shown in athletic stances related to fighting, not performing a split. Starting with a gymnast performing a split supports the action, introducing a boxer in similar attire balances identity shift without disrupting the pose.",
     "prompts_list": [
@@ -498,192 +11,26 @@
       6
     ]
   },
-  "An elephant balancing en pointe in a ballet recital": {
-    "explanation": "Elephants are not typically associated with ballet or gyms. A ballerina balances en pointe, which completes the scene layout. Only once that's established does the larger, unlikely figure replace it.",
+  "A bear performing a handstand in the park": {
+    "explanation": "Bears typically stand on all fours, not in human acrobatic poses. Starting with a person in the handstand posture stabilizes the unnatural pose, creating a bridge toward the unusual concept of a bear performing this action",
     "prompts_list": [
-      "A ballerina balancing en pointe in a ballet recital",
-      "An elephant balancing en pointe in a ballet recital"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A lion performing a synchronized swimming routine in a pool": {
-    "explanation": "Synchronized swimming is a human sport that leans heavily on human motion for initial scene structure. A human swimmer in the routine provides a stable base before introducing the full-size, semantically different animal.",
-    "prompts_list": [
-      "A synchronized swimming routine in a pool",
-      "A lion performing a synchronized swimming routine in a pool"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A surgeon using crayons to operate in an art studio": {
-    "explanation": "Surgeons are typically associated with an operating theater, while crayons and an art studio denote a different context and toolset. Introducing a standard operating room layout grounds the scene before switching the tools and setting.",
-    "prompts_list": [
-      "A surgeon performing surgery in an operating room",
-      "A surgeon using crayons in an art studio"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A knight wearing scuba gear to joust underwater": {
-    "explanation": "Jousting knights typically wear armor, providing the primary scene layout; scuba gear and underwater actions represent a visual contradiction introduced only after the base scene is set.",
-    "prompts_list": [
-      "A knight jousting",
-      "A knight in scuba gear jousting underwater"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A camel pulling a sled through a snowstorm": {
-    "explanation": "Camels are associated with desert climates, while sleds are used in snow, creating a natural contradiction. Using huskies initially stabilizes the scene in a snowy setting before swapping with a camel.",
-    "prompts_list": [
-      "Huskies pulling a sled through a snowstorm",
-      "A camel pulling a sled through a snowstorm"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A boy giving a piggyback ride to a lion": {
-    "explanation": "A boy and lion of similar size have incompatible poses, needing intermediate stabilizing concepts. Starting with a boy giving a piggyback ride to a dog approximates size and posture, allowing a transition to a visually stable piggyback position before introducing the lion.",
-    "prompts_list": [
-      "A boy giving a piggyback ride to a large dog",
-      "A boy giving a piggyback ride to a lion"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A subway station inside a coral reef": {
-    "explanation": "A coral reef is an unusual element inside a subway station. Starting with a subway station and then introducing a marine theme provides structure before shifting to the surreal underwater setting.",
-    "prompts_list": [
-      "A subway station interior",
-      "A subway station interior with marine decorations",
-      "A subway station inside a coral reef"
+      "A person performing a handstand in the park",
+      "A person in a bear costume performing a handstand in the park",
+      "A bear performing a handstand in the park"
     ],
     "switch_prompts_steps": [
       3,
       7
     ]
   },
-  "A baby giving a parent a bedtime story": {
-    "explanation": "Storytelling is reversed in normal parent-child relationships, prompting introduction of an intermediary where a parent reads to a child, providing stable context to later invert the roles.",
+  "A photorealistic photo of SpongeBob SquarePants dancing ballet": {
+    "explanation": "SpongeBob's cartoon nature conflicts with photorealistic style. Starting with a realistic dancer grounds the complex action and setting, transitioning to SpongeBob's identity once structure is established.",
     "prompts_list": [
-      "A parent reading a bedtime story to a baby",
-      "A baby giving a parent a bedtime story"
+      "A photorealistic photo of a dancer in ballet pose",
+      "SpongeBob SquarePants in a photorealistic ballet dance"
     ],
     "switch_prompts_steps": [
       4
-    ]
-  },
-  "A gorilla delicately threading a needle": {
-    "explanation": "Precise human-like dexterity depicted in threading doesn't align with a gorilla's typical action. Introducing a man threads by hand stabilizes gesture, transitioning through a man in a gorilla suit ensures gorillaness with gesture intact.",
-    "prompts_list": [
-      "A man delicately threading a needle",
-      "A man in a gorilla suit delicately threading a needle",
-      "A gorilla delicately threading a needle"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "a woman has a marine haircut": {
-    "explanation": "Marine haircuts are visually distinct and recognizably human but not typically seen on women. Starting with short hair on a woman establishes overall structure without contradiction, allowing the final haircut identity to resolve without disrupting composition.",
-    "prompts_list": [
-      "A woman with short hair",
-      "A woman with a marine haircut"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A cat singing to a microphone": {
-    "explanation": "Singing and interacting with objects is nonstandard for cats. An anthropomorphic cat first stabilizes pose and action, then the final scene refines to portray a typical cat with unusual action, maintaining layout and composition.",
-    "prompts_list": [
-      "An anthropomorphic cat singing to a microphone",
-      "A cat singing to a microphone"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "An elephant performing a handstand in the park": {
-    "explanation": "Elephants typically stand on four legs, not performing acrobatics like handstands. Starting with a human stabilizes the pose; introducing an elephant costume preserves the activity before resolving to the full identity without breaking visual coherence.",
-    "prompts_list": [
-      "A human doing a handstand in the park",
-      "A human in an elephant costume doing a handstand in the park",
-      "An elephant performing a handstand in the park"
-    ],
-    "switch_prompts_steps": [
-      4,
-      7
-    ]
-  },
-  "A hamburger growing on a vine in a garden": {
-    "explanation": "A garden scene with fruits like tomatoes commonly appears with vine growth. Starting with tomatoes allows for a smooth transition into the unlikely hamburger iteration, maintaining structure and visual realism.",
-    "prompts_list": [
-      "Tomatoes growing on a vine in a garden",
-      "Hamburgers growing on a vine in a garden"
-    ],
-    "switch_prompts_steps": [
-      5
-    ]
-  },
-  "A panda meditating at the bottom of the ocean": {
-    "explanation": "Pandas do not typically exist underwater, and meditation is usually a land-based or cultural activity. Starting with a diver in meditation pose establishes the setting and action. Then, the panda identity is introduced alongside stable underwater features.",
-    "prompts_list": [
-      "A diver meditating at the bottom of the ocean",
-      "A panda meditating at the bottom of the ocean"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "An astronaut riding a horse through a rainforest": {
-    "explanation": "An astronaut is more commonly associated with space environments. By starting with a familiar rider (a traveler) in a rainforest, the model can establish the riding pose and scene composition before transitioning to the uniform identity of an astronaut.",
-    "prompts_list": [
-      "A traveler riding a horse through a rainforest",
-      "An astronaut riding a horse through a rainforest"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A fireplace burning inside an igloo": {
-    "explanation": "A fireplace and an igloo are contextually contradictory due to their thermal properties. Beginning with an igloo alone grounds the scene in structure before introducing the fire's emission effect for realism.",
-    "prompts_list": [
-      "An igloo",
-      "A fireplace burning inside an igloo"
-    ],
-    "switch_prompts_steps": [
-      2
-    ]
-  },
-  "A mime performing in a sandstorm": {
-    "explanation": "Mimes are typically associated with urban or theatrical environments. Starting with a performer in a windy urban setting maintains visual coherence before gradually introducing the more extreme sandstorm environment.",
-    "prompts_list": [
-      "A mime performing in a windy urban street",
-      "A mime performing in a sandstorm"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A mermaid in a business suit giving a TED talk": {
-    "explanation": "A businessperson in a TED talk setting is visually familiar. A person in a mermaid suit bridges identity and scene transition, avoiding drastic layout jumps by framing the scenario in both underwater and speaking contexts.",
-    "prompts_list": [
-      "A businessperson giving a TED talk",
-      "A person in a mermaid suit giving a TED talk",
-      "A mermaid in a business suit giving a TED talk"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
     ]
   },
   "A cowboy swimming competitively in an Olympic pool": {
@@ -698,728 +45,14 @@
       6
     ]
   },
-  "A skeleton relaxing at a tanning salon": {
-    "explanation": "Skeletons lack skin attributes, making a tanning scenario visually contradictory. Stabilizing with a \"man\" proxy gives structure to the relaxed pose, before introducing the impossible tanning scenario for a skeleton.",
+  "A cruise ship parked in a bathtub": {
+    "explanation": "A cruise ship is vastly larger than a bathtub, introducing spatial contradiction. Using a toy boat as a stand-in first stabilizes scale before introducing the full-size cruise ship.",
     "prompts_list": [
-      "A man relaxing at a tanning salon",
-      "A skeleton relaxing at a tanning salon"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A vampire applying sunscreen on the beach": {
-    "explanation": "Vampires, akin to humans, facilitate layout with a man initially, then transition to the vampire identity for the semantically contradictory sunscreen application.",
-    "prompts_list": [
-      "A man applying sunscreen on the beach",
-      "A vampire applying sunscreen on the beach"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A scarecrow working in a tech support call center": {
-    "explanation": "Scarecrows typically don't operate technology; thus, a \"man\" can first assume the office role and stabilize before revealing the scarecrow's unconventional character.",
-    "prompts_list": [
-      "A man working in a tech support call center",
-      "A scarecrow working in a tech support call center"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A spoon holding a mountain": {
-    "explanation": "The enormity of a mountain contrasted with a spoon's small scale introduces visual dissonance. Progressing from a \"hand\" proxy that can logically hold objects bridges the visual leap to a spoon before achieving the final surreal concept.",
-    "prompts_list": [
-      "A giant hand holding a small object",
-      "A spoon holding a small object",
-      "A spoon holding a mountain"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A cat balancing a skyscraper on its nose": {
-    "explanation": "Balancing a large object like a skyscraper needs stabilization with realistic posing; a \"seal\" can balance a ball—similar in action to the cat, providing visual coherence before completing the surreal cat skyscraper challenge.",
-    "prompts_list": [
-      "A seal balancing a ball on its nose",
-      "A seal balancing a small building on its nose",
-      "A cat balancing a skyscraper on its nose"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A train driving across a single blade of grass": {
-    "explanation": "A train and a blade of grass exist at vastly different scales. Salient train features stabilize the concept, and use of natural vistas aid in the transition. The final focus on the grass blade resolves scale incongruity without misalignment.",
-    "prompts_list": [
-      "A miniature train driving through scenic views",
-      "A miniature train driving across simple plant structures",
-      "A train driving across a single blade of grass"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A soccer field painted on a grain of rice": {
-    "explanation": "The grain of rice is a very small canvas requiring stable geometry before depicting the soccer field. The initial prompt focuses on the rice, delaying the soccer field until the scene's scale is resolved.",
-    "prompts_list": [
-      "A close-up of a grain of rice",
-      "A grain of rice painted with a soccer field"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A violin storing a library inside its case": {
-    "explanation": "A violin and its case are designed to contain objects; mason collections suit this function. The layering helps manage internal expansion while retaining outer form whilst swiss mini-library suit this fine concept completion.",
-    "prompts_list": [
-      "A violin with a collection in its case",
-      "A violin containing small shelving elements inside",
-      "A violin storing a library inside its case"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A hyperrealistic unicorn made of origami": {
-    "explanation": "Start with geometric shapes formed from paper to prepare for origami. Integrate mythical qualities next to refine identity before hyperrealistic detailing is perfected as the model completes the final steps.",
-    "prompts_list": [
-      "Origami consisting of geometric paper designs",
-      "Paper unicorn created through origami",
-      "A hyperrealistic unicorn made of origami"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A cartoon cloud raining photorealistic water": {
-    "explanation": "A cartoon cloud suggests a simplistic framework, aiding in structure-building. Converting rain to textures next assists realism translation and seamlessly integrates photorealistic adjustments later without losing form.",
-    "prompts_list": [
-      "A cartoon cloud exhibiting rain",
-      "A cartoon cloud releasing detailed water textures",
-      "A cartoon cloud raining photorealistic water"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A cubist lion hiding in a photorealistic jungle": {
-    "explanation": "The photorealistic jungle is established first to resolve the large-scale scene layout. Introduce the lion in a partial cubist style to bridge the style difference before refining to complete cubism.",
-    "prompts_list": [
-      "A photorealistic jungle",
-      "A partially cubist lion in a photorealistic jungle",
-      "A cubist lion hiding in a photorealistic jungle"
-    ],
-    "switch_prompts_steps": [
-      4,
-      8
-    ]
-  },
-  "A surrealist pizza floating above a Renaissance city": {
-    "explanation": "The pizza's surreal nature contrasts with the structured-and-detailed Renaissance context. Starting with the city allows the model to focus on historical architecture and detailing before introducing the incongruous, floating element.",
-    "prompts_list": [
-      "A Renaissance city",
-      "A floating object above a Renaissance city",
-      "A surrealist pizza floating above a Renaissance city"
-    ],
-    "switch_prompts_steps": [
-      3,
-      8
-    ]
-  },
-  "Children crying at Disneyland": {
-    "explanation": "Children are typically shown happy at Disneyland. Introducing children in a neutral park scene and then in an amusement park enables the model to resolve structure before adding the emotional expression.",
-    "prompts_list": [
-      "Children in a park",
-      "Children at an amusement park",
-      "Children crying at Disneyland"
-    ],
-    "switch_prompts_steps": [
-      3,
-      5
-    ]
-  },
-  "A clown looking terrified in a circus ring": {
-    "explanation": "Clowns are often depicted as joyful, so a terrified expression is contextually jarring. Establishing a neutral clown character first before adding the unusual emotion maintains the coherence of the circus setting.",
-    "prompts_list": [
-      "A clown in a circus ring",
-      "A clown looking terrified in a circus ring"
-    ],
-    "switch_prompts_steps": [
-      5
-    ]
-  },
-  "A ballerina aggressively flipping a table": {
-    "explanation": "A ballerina is typically shown in graceful poses, not aggressive actions. Starting with a dancer in an active scene helps establish pose, then switching to flipping allows for the uncharacteristic action.",
-    "prompts_list": [
-      "A ballerina posing dramatically in a room",
-      "A ballerina flipping a table"
+      "A toy boat floating in a bathtub",
+      "A large cruise ship parked in a bathtub"
     ],
     "switch_prompts_steps": [
       4
-    ]
-  },
-  "A football quarterback doing rhythmic gymnastics": {
-    "explanation": "Quarterbacks are associated with football—not rhythmic movements. Introduce a generic athlete in the context of physical exercise before focusing on the specific gymnastic pose.",
-    "prompts_list": [
-      "An athlete exercising in a stadium",
-      "A football quarterback doing rhythmic gymnastics"
-    ],
-    "switch_prompts_steps": [
-      5
-    ]
-  },
-  "A bride running away alone from her wedding at sunset": {
-    "explanation": "A bride at a wedding is contextually stable. The act of running away shifts the scene significantly and requires dynamic structure. By starting with static composition, then adding action, the prompt resolves contrast without breaking coherence.",
-    "prompts_list": [
-      "A bride standing at her wedding at sunset",
-      "A bride running away alone at sunset"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A cat performing heart surgery in an operating room": {
-    "explanation": "A cat performing heart surgery is absurd and highly incompatible with typical scenes. Starting with a human surgeon provides the correct role and environment, and then anthropomorphizing a cat helps bridge to the surreal concept.",
-    "prompts_list": [
-      "A human surgeon in an operating room",
-      "An anthropomorphic cat in a surgeon outfit in an operating room",
-      "A cat performing heart surgery in an operating room"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A child frowning while opening a present": {
-    "explanation": "This scene is visually and contextually coherent, as expressions can vary naturally. The child and present scene can be realized together.",
-    "prompts_list": [
-      "A child frowning while opening a present"
-    ],
-    "switch_prompts_steps": []
-  },
-  "A bodybuilder balancing on pointe shoes": {
-    "explanation": "Balancing on pointe shoes is associated with ballet, an unusual activity for a bodybuilder. Starting with a ballet dancer stabilizes posture, while a muscular figure in ballet attire transitions towards the target.",
-    "prompts_list": [
-      "A ballet dancer balancing on pointe shoes",
-      "A muscular figure in ballet attire balancing on pointe shoes",
-      "A bodybuilder balancing on pointe shoes"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A whale perched on top of a pine tree": {
-    "explanation": "A whale on a tree is highly improbable in size and context. A bird, which is feasible and allows for a perched scene, serves as an initial proxy before revealing the surreal target.",
-    "prompts_list": [
-      "A bird perched on top of a pine tree",
-      "A whale perched on top of a pine tree"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A turtle doing a backflip off a diving board": {
-    "explanation": "A turtle is typically not associated with complex acrobatic movements like a backflip. Starting with a human diver stabilizes the scenario, then using an anthropomorphized turtle bridges to the final concept.",
-    "prompts_list": [
-      "A human diver doing a backflip off a diving board",
-      "An anthropomorphic turtle doing a backflip off a diving board",
-      "A turtle doing a backflip off a diving board"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A scarecrow wearing a swimsuit during a blizzard": {
-    "explanation": "Scarecrows are typically seen in fields, not in winter storms or wearing swimsuits. Starting with a scarecrow in a blizzard focuses first on uncommon weather association; the swimsuit, incongruous with cold, is added last, when the model can handle fine-detail contradictions without disrupting the scene's coherence.",
-    "prompts_list": [
-      "A scarecrow in a blizzard",
-      "A scarecrow wearing a swimsuit during a blizzard"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A birthday boy sitting alone at his party table": {
-    "explanation": "The scene is visually coherent and realistic, as it describes a common scenario of a birthday setting, where the only oddity is the boy sitting alone. No decomposition is required as the context aligns with natural social settings.",
-    "prompts_list": [
-      "A birthday boy sitting alone at his party table"
-    ],
-    "switch_prompts_steps": []
-  },
-  "A therapist crying while the patient smiles": {
-    "explanation": "The emotionally inverted interaction between therapist and patient doesn't disrupt the scene's layout or coherence. Both characters and actions are common, only the mood shifts, which can be resolved without decomposition.",
-    "prompts_list": [
-      "A therapist crying while the patient smiles"
-    ],
-    "switch_prompts_steps": []
-  },
-  "A gymnast dancing while holding a chainsaw": {
-    "explanation": "The gymnast's pose and motion are key structural elements. Starting with a gymnast holding an abstract object maintains layout. Introducing the highly detailed and semantically charged chainsaw happens once the model resolves the gymnast's pose.",
-    "prompts_list": [
-      "A gymnast dancing while holding an abstract object",
-      "A gymnast dancing while holding a chainsaw"
-    ],
-    "switch_prompts_steps": [
-      5
-    ]
-  },
-  "A cow grazing on a city rooftop": {
-    "explanation": "Cows are not typically found in urban settings, particularly on rooftops. Initially depicting a rooftop garden facilitates seamless spatial structure, enabling the later introduction of the cow, once the model can reconcile its usual pasture behavior in this unusual setting.",
-    "prompts_list": [
-      "A city rooftop with a garden",
-      "A cow grazing on a city rooftop"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A camel ice skating on a frozen lake": {
-    "explanation": "Camels are typically seen walking on sand, not skating. Starting with a human skating on a lake creates a plausible action proxy, then a human in a camel costume bridges the transition to the camel performing the action.",
-    "prompts_list": [
-      "A person ice skating on a frozen lake",
-      "A person in a camel costume ice skating on a frozen lake",
-      "A camel ice skating on a frozen lake"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A baby stroller full of knives": {
-    "explanation": "A baby stroller typically contains baby items. Starting with fruits, unexpected but plausible, stabilizes structure and layout before transitioning to the unusual concept of knives.",
-    "prompts_list": [
-      "A baby stroller full of fruits",
-      "A baby stroller full of knives"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A vending machine in a human running posture": {
-    "explanation": "A vending machine does not typically change posture or move. Starting with a running person stabilizes the motion and action, then transitioning to a person in a vending machine costume bridges to the surreal depiction.",
-    "prompts_list": [
-      "A person running",
-      "A person dressed as a vending machine running",
-      "A vending machine in a human running posture"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A church built upside-down on the ceiling": {
-    "explanation": "Churches are substantial structures with defined architecture. Starting with a generic building upside-down stabilizes overall geometry before transitioning to the specific architectural details of a church.",
-    "prompts_list": [
-      "A building built upside-down on the ceiling",
-      "A church built upside-down on the ceiling"
-    ],
-    "switch_prompts_steps": [
-      5
-    ]
-  },
-  "A fish flying over a highway": {
-    "explanation": "Fish are water-bound and not commonly seen flying. Birds are a natural substitute for flying similitude and replace the fish in early stages to stabilize action and preserve transitions. Switch focus from a bird to a flying fish only after spatial and dynamic realism is resolved.",
-    "prompts_list": [
-      "A bird flying over a highway",
-      "A fish flying over a highway"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A library printed on a butterfly’s wings": {
-    "explanation": "Butterfly wings are small and typically colorful, unlike the structured complexity of a library. Introducing kaleidoscope patterns first allows the structure to develop in a visually coherent manner before resolving into detailed imagery.",
-    "prompts_list": [
-      "A kaleidoscope pattern on butterfly wings",
-      "A library printed on a butterfly’s wings"
-    ],
-    "switch_prompts_steps": [
-      5
-    ]
-  },
-  "A bathtub floating above a desert in a tornado": {
-    "explanation": "The desert is a static, vast scene, contrasting with the dynamic motion of a tornado. Begin with a bathtub in a desert setting to stabilize the layout before adding dynamic elements, and finally introduce the tornado suspension.",
-    "prompts_list": [
-      "A bathtub in a desert",
-      "A bathtub floating above a desert",
-      "A bathtub floating above a desert in a tornado"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A lion performing a synchronized breaststroke swimming routine in a pool": {
-    "explanation": "A lion swimming or performing human actions, especially synchronized routines, requires staged complexity. Begin with a human swimmer to set the swimming action and layout, shift to a man in a lion costume, before finally resolving to a lion.",
-    "prompts_list": [
-      "A human performing a synchronized breaststroke swimming routine in a pool",
-      "A man in a lion costume performing a synchronized breaststroke swimming routine",
-      "A lion performing a synchronized breaststroke swimming routine in a pool"
-    ],
-    "switch_prompts_steps": [
-      4,
-      8
-    ]
-  },
-  "A lion performing a synchronized breaststroke swimming routine in a poolA man giving a piggyback ride to an elephant": {
-    "explanation": "Synchronized swimming is typically a human sport, so a sequence from human to lion is needed to stabilize shape and motion. Using a man in a lion costume provides a plausible bridge before the full transition to a lion.",
-    "prompts_list": [
-      "A synchronized swimmer performing breaststroke in a pool",
-      "A man in a lion costume performing a synchronized breaststroke swimming routine in a pool",
-      "A lion performing a synchronized breaststroke swimming routine in a pool"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A monkey juggles tiny elephants": {
-    "explanation": "Juggling is a human action not typically associated with monkeys, while tiny elephants are an unusual juggling object. Start with a human juggling balls; transitioning to a large species like gorilla allows preserving pose. Reducing scale introduces elephants later.",
-    "prompts_list": [
-      "A human juggles balls",
-      "A gorilla juggles balls",
-      "A monkey juggles tiny elephants"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A realistic photo of a giraffe wearing slippers": {
-    "explanation": "Slippers are significantly smaller than a giraffe, so visual coherence is maintained by introducing slippers after stabilizing the giraffe's pose and identity.",
-    "prompts_list": [
-      "A photo of a giraffe",
-      "A realistic photo of a giraffe wearing slippers"
-    ],
-    "switch_prompts_steps": [
-      5
-    ]
-  },
-  "A tower with two hands": {
-    "explanation": "Building a tower's structure first is essential before integrating human-like elements such as hands, which are introduced once the coarse geometry is aligned.",
-    "prompts_list": [
-      "A tower",
-      "A tower with human-like features, specifically two hands"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A scuba diver roasting marshmallows on an underwater campfire": {
-    "explanation": "Placing a scuba diver underwater aligns with ambient scenes. Marshmallows and fire are conceptually incongruent underwater, so they follow in sequence, allowing for gradual alignment in visual structure.",
-    "prompts_list": [
-      "A scuba diver swimming underwater",
-      "A scuba diver with a marshmallow skewer underwater",
-      "A scuba diver roasting marshmallows on an underwater campfire"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A violin being played with a paintbrush.": {
-    "explanation": "\"Playing a violin\" usually requires a bow, which provides a visual structure similar to a paintbrush. Introducing the violin with the traditional bow first stabilizes the scene before the visually unusual element of a paintbrush is introduced.",
-    "prompts_list": [
-      "A violin being played with a bow",
-      "A violin being played with a paintbrush"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A shark reading a newspaper on the beach": {
-    "explanation": "Sharks are not typically associated with reading or being on land. Introducing a human on the beach first grounds the beach setting and reading action, before transforming the person into a shark.",
-    "prompts_list": [
-      "A person reading a newspaper on the beach",
-      "A shark reading a newspaper on the beach"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A comb is being used to eat spaghetti.": {
-    "explanation": "Eating spaghetti is commonly done with a fork, which shares similar linear structure to a comb. Beginning with this typical utensil and switching to a comb once the model has established the eating action keeps the visual coherence.",
-    "prompts_list": [
-      "A fork is being used to eat spaghetti",
-      "A comb is being used to eat spaghetti"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A violin played using a toothbrush instead of a bow.": {
-    "explanation": "A violin typically requires movement and visual emphasis provided by a bow. Establishing the familiar setup with a bow first allows the later substitution of a toothbrush without disrupting the main layout.",
-    "prompts_list": [
-      "A violin being played with a bow",
-      "A violin being played using a toothbrush instead of a bow"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A banana is being sharpened in a pencil sharpener.": {
-    "explanation": "Sharpening involves a pencil initially, which shares a similar shape to a banana. Establishing this action with a pencil first stabilizes the structure before shifting to the comical, surreal idea of a banana.",
-    "prompts_list": [
-      "A pencil being sharpened in a pencil sharpener",
-      "A banana being sharpened in a pencil sharpener"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A sneaker used as a coffee mug.": {
-    "explanation": "The sneaker's unusual function as a mug is resolved by first depicting its general shape and position. \"A ceramic vase\" maintains the appropriate locked scene layout before introducing the unexpected usage as a coffee mug and then introducing the sneaker identity.",
-    "prompts_list": [
-      "A ceramic vase used as a coffee mug",
-      "A sneaker used as a coffee mug"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A watermelon cut with a chainsaw": {
-    "explanation": "Starting with a generic large fruit and knife stabilizes the object's size and context. Once the model resolves the layout, a chainsaw is introduced to account for its distinct shape and to create the unusual visual of cutting a watermelon with it.",
-    "prompts_list": [
-      "A large fruit being cut with a knife",
-      "A watermelon being cut with a chainsaw"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A motorcycle parked on a tennis court": {
-    "explanation": "The scene is visually coherent, as motorcycles exist in urban settings and tennis courts can plausibly host such static machinery. Therefore, no decomposition is needed.",
-    "prompts_list": [
-      "A motorcycle parked on a tennis court"
-    ],
-    "switch_prompts_steps": []
-  },
-  "A coffee machine dispensing glitter": {
-    "explanation": "Start with the typical function and structure of dispensing coffee grounds to ground the scene. Then, introduce the glitter as a filling replacement when high-frequency details can be resolved.",
-    "prompts_list": [
-      "A coffee machine dispensing coffee",
-      "A coffee machine dispensing glitter"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A woman brushing her teeth with a paintbrush": {
-    "explanation": "The action of brushing teeth is human-specific and requires stable facial geometry. Starting with a toothbrush stabilizes the motion and typical behavior before introducing the unusual item, the paintbrush.",
-    "prompts_list": [
-      "A woman brushing her teeth with a toothbrush",
-      "A woman brushing her teeth with a paintbrush"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A man wearing skis in a shopping mall": {
-    "explanation": "Skiing equipment is unusual in a shopping mall context. Starting with a man walking maintains the initial scene layout and pose. Introducing skiing gear transitions from the plausible activity of walking to the unique concept.",
-    "prompts_list": [
-      "A man walking in a shopping mall",
-      "A man wearing skis in a shopping mall"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A computer mouse eating a piece of cheese": {
-    "explanation": "The concept is surreal and requires alignment of form; initially representing a computer mouse as a real mouse provides a visual bridge for the eating action.",
-    "prompts_list": [
-      "A real mouse eating a piece of cheese",
-      "A computer mouse eating a piece of cheese"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A banana being used as a telephone at a business meeting": {
-    "explanation": "Starting with a cellphone, a typical object in meetings, grounds the scene structure and posture. The substitution of a banana, an unusual object, comes as the model refines detail.",
-    "prompts_list": [
-      "A cellphone being used at a business meeting",
-      "A banana being used as a telephone at a business meeting"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A sandwich with shoelaces instead of lettuce": {
-    "explanation": "Building a conventional sandwich establishes familiar structure. Shoelaces are later substituted for lettuce, with their positioning and thin, layered resemblance aiding the transition.",
-    "prompts_list": [
-      "A sandwich with lettuce",
-      "A sandwich with shoelaces instead of lettuce"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A pizza box being used as a laptop": {
-    "explanation": "A laptop's structural presence is retained by starting with a closed laptop; as details sharpen, the transition to a pizza box begins, preserving the rectangular shape and interaction.",
-    "prompts_list": [
-      "A closed laptop being used",
-      "A pizza box being used as a laptop"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A hammer hanging on a coat rack": {
-    "explanation": "Objects like hammers are not typically found on a coat rack. Starting with a scarf, then transitioning to a stick, uses shape and size similarities common in such setups before introducing the hammer.",
-    "prompts_list": [
-      "A scarf hanging on a coat rack",
-      "A stick hanging on a coat rack",
-      "A hammer hanging on a coat rack"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A penguin mowing the lawn in the suburbs": {
-    "explanation": "Penguins are not typically found mowing lawns. Starting with a man lawn-mowing and then introducing a costumed figure maintains action and geometry, before realizing the unusual penguin concept.",
-    "prompts_list": [
-      "A man mowing the lawn in the suburbs",
-      "A person in a penguin costume mowing the lawn in the suburbs",
-      "A penguin mowing the lawn in the suburbs"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A bear ironing clothes in a laundry room": {
-    "explanation": "Since ironing is not a bear's natural action, starting with a person ironing solidifies pose. A human in a bear costume bridges the transition toward the bear without breaking spatial or action coherence.",
-    "prompts_list": [
-      "A person ironing clothes in a laundry room",
-      "A person in a bear costume ironing clothes in a laundry room",
-      "A bear ironing clothes in a laundry room"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A dragon drinking coffee at a modern cafe": {
-    "explanation": "Dragons are typically not associated with cafes. Using a man stabilizes the setup and pose, while a dragon costume preserves geometry before introducing the complete fantastical creature.",
-    "prompts_list": [
-      "A man drinking coffee at a modern cafe",
-      "A person in a dragon costume drinking coffee at a modern cafe",
-      "A dragon drinking coffee at a modern cafe"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A potato wearing a crown sitting on a throne": {
-    "explanation": "Potatoes are not typically associated with royalty. Starting with a king provides structural and thematic grounding, then substituting the king with a potato makes for a surreal yet visually plausible transition.",
-    "prompts_list": [
-      "A king wearing a crown sitting on a throne",
-      "A potato wearing a crown sitting on a throne"
-    ],
-    "switch_prompts_steps": [
-      5
-    ]
-  },
-  "A couch floating in a swimming pool like a raft": {
-    "explanation": "A floating couch in a pool is an unusual and surreal concept. Starting with a large inflatable pool float stabilizes the aquatic and floating elements, allowing the unusual feature (the couch) to be introduced gradually.",
-    "prompts_list": [
-      "A large inflatable raft floating in a swimming pool",
-      "A couch floating in a swimming pool like a raft"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A lion painting its claws with nail polish": {
-    "explanation": "Painting nails is a human action. Starting with a person stabilizes the painting pose, then transitioning to a lion with hands maintains the painting action while bridging to the full identity shift.",
-    "prompts_list": [
-      "A person painting nails with polish",
-      "A lion with human-like hands painting its claws",
-      "A lion painting its claws with nail polish"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A kangaroo delivering mail on a bicycle": {
-    "explanation": "Riding a bicycle is a human action not typically associated with kangaroos. Starting with a courier stabilizes the pose and action before transitioning to a kangaroo, allowing the model to maintain geometry while adding the unexpected identity.",
-    "prompts_list": [
-      "A courier delivering mail on a bicycle",
-      "A human-like kangaroo delivering mail on a bicycle",
-      "A kangaroo delivering mail on a bicycle"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
-    ]
-  },
-  "A frog wearing glasses and reading a novel": {
-    "explanation": "Frogs do not typically wear glasses or read. Starting with a person stabilizes the pose and action of reading. Transitioning to a humanoid frog wearing glasses maintains the reading posture while introducing the unusual identity.",
-    "prompts_list": [
-      "A person wearing glasses, reading a novel",
-      "A humanoid frog wearing glasses, reading a novel",
-      "A frog wearing glasses and reading a novel"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A snake knitting a sweater": {
-    "explanation": "Knitting is a human action requiring hands. Starting with a person stabilizes the knitting action, transitioning to a human-snake hybrid maintains the action while shifting identity.",
-    "prompts_list": [
-      "A person knitting a sweater",
-      "A human-like snake knitting a sweater",
-      "A snake knitting a sweater"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A horse taking a selfie with a smartphone": {
-    "explanation": "A horse holding a smartphone in a human manner is an unlikely pose. Starting with a man stabilizes the action layout of taking a selfie, preserving realistic body geometry before transitioning to the horse identity.",
-    "prompts_list": [
-      "A man taking a selfie with a smartphone",
-      "A horse taking a selfie with a smartphone"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A flamingo wearing winter boots": {
-    "explanation": "Flamingos naturally stand on long slender legs without footwear. Introducing an ostrich—similar in leg shape—wearing boots allows alignment of visual structure before resolving the more delicate identity of a flamingo.",
-    "prompts_list": [
-      "An ostrich wearing boots",
-      "A flamingo wearing winter boots"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A sheep practicing yoga on a mat": {
-    "explanation": "Yoga is a human activity uncommon for sheep. Establishing a generic yoga figure first allows pose stabilization, then transitioning through a humanoid sheep navigates the identity shift.",
-    "prompts_list": [
-      "A person practicing yoga on a mat",
-      "A humanoid sheep practicing yoga on a mat",
-      "A sheep practicing yoga on a mat"
-    ],
-    "switch_prompts_steps": [
-      3,
-      6
     ]
   },
   "A man giving a piggyback ride to an elephant": {
@@ -1442,92 +75,180 @@
       4
     ]
   },
-  "A pizza being used as an umbrella in the rain": {
-    "explanation": "The pizza as an umbrella is conceptually odd due to functional contradiction. A similar round object like a large hat or parasol provides structural organization first before morphing into the finalized scene.",
+  "A coffee machine dispensing glitter": {
+    "explanation": "Start with the typical function and structure of dispensing coffee grounds to ground the scene. Then, introduce the glitter as a filling replacement when high-frequency details can be resolved.",
     "prompts_list": [
-      "A large hat being used as an umbrella in the rain",
-      "A pizza being used as an umbrella in the rain"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A child giving a robot a bedtime story": {
-    "explanation": "Starting with a child reading to another child stabilizes the overall scene and role before transitioning to a humanoid shape (a robot) that realistically accepts the storytelling context.",
-    "prompts_list": [
-      "A child giving a bedtime story to another child",
-      "A child giving a bedtime story to a robot"
+      "A coffee machine dispensing coffee",
+      "A coffee machine dispensing glitter"
     ],
     "switch_prompts_steps": [
       4
     ]
   },
-  "A statue crying real tears": {
-    "explanation": "A statue in context guides initial scene structure, while water features (e.g., a small fountain) transition toward the surreal complexity of tears later in the denoising process.",
+  "A vending machine in a human running posture": {
+    "explanation": "A vending machine does not typically change posture or move. Starting with a running person stabilizes the motion and action, then transitioning to a person in a vending machine costume bridges to the surreal depiction.",
     "prompts_list": [
-      "A statue with a small fountain nearby",
-      "A statue crying real tears"
+      "A person running",
+      "A person dressed as a vending machine running",
+      "A vending machine in a human running posture"
     ],
     "switch_prompts_steps": [
-      5
+      3,
+      7
     ]
   },
-  "A pigeon swimming in a fish tank": {
-    "explanation": "Pigeons are typically not aquatic and are not depicted swimming. A rubber duck serves as a visually coherent aquatic substitute before introducing the pigeon in the incongruous environment of a fish tank.",
+  "A ballerina aggressively flipping a table": {
+    "explanation": "A ballerina is typically shown in graceful poses, not aggressive actions. Starting with a dancer in an active scene helps establish pose, then switching to flipping allows for the uncharacteristic action.",
     "prompts_list": [
-      "A rubber duck swimming in a fish tank",
-      "A pigeon swimming in a fish tank"
-    ],
-    "switch_prompts_steps": [
-      4
-    ]
-  },
-  "A toothbrush in a bowl of cereal": {
-    "explanation": "A toothbrush is an unusual object to have in a bowl of cereal. Starting with a spoon, which is a common item in cereal, stabilizes layout and geometry before substituting it with a toothbrush.",
-    "prompts_list": [
-      "A spoon in a bowl of cereal",
-      "A toothbrush in a bowl of cereal"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A stop sign inside a classroom": {
-    "explanation": "A stop sign is usually outdoors, not indoors, but the visual structure is coherent. Introducing a poster with red text, a similarly sized and shaped object, helps bridge this transition.",
-    "prompts_list": [
-      "A poster with red text inside a classroom",
-      "A stop sign inside a classroom"
+      "A ballerina posing dramatically in a room",
+      "A ballerina flipping a table"
     ],
     "switch_prompts_steps": [
       4
     ]
   },
-  "A baby sitting on top of a bookcase": {
-    "explanation": "Babies are typically on the ground or in a parent's lap, not high up on furniture. Starting with a doll stabilizes position, and the transition to a baby in this unlikely scenario occurs once the model has resolved the basic scene layout.",
+  "A bathtub floating above a desert in a tornado": {
+    "explanation": "The desert is a static, vast scene, contrasting with the dynamic motion of a tornado. Begin with a bathtub in a desert setting to stabilize the layout before adding dynamic elements, and finally introduce the tornado suspension.",
     "prompts_list": [
-      "A doll sitting on top of a bookcase",
-      "A baby sitting on top of a bookcase"
-    ],
-    "switch_prompts_steps": [
-      3
-    ]
-  },
-  "A comb is being used to eat spaghetti.A photorealistic image of Homer Simpson eating lunch in a corporate cafeteria": {
-    "explanation": "Using a comb to eat spaghetti is unrealistic, so it's introduced after establishing a normal dining setup with utensils. Homer Simpson is a recognizable character whose realism is enhanced later, maintaining visual coherence within an office cafeteria setting.",
-    "prompts_list": [
-      "A person eating lunch with utensils in a corporate cafeteria",
-      "A comb is being used to eat spaghetti in a corporate cafeteria",
-      "A photorealistic image of Homer Simpson eating lunch in a corporate cafeteria"
+      "A bathtub in a desert",
+      "A bathtub floating above a desert",
+      "A bathtub floating above a desert in a tornado"
     ],
     "switch_prompts_steps": [
       3,
       6
     ]
   },
-  "A photorealistic photo of Shrek taking a passport photo": {
-    "explanation": "Shrek is a well-known character and the concept of taking a passport photo is straightforward and visually coherent, so this prompt does not require decomposition.",
+  "A monkey juggles tiny elephants": {
+    "explanation": "Juggling is a human action not typically associated with monkeys, while tiny elephants are an unusual juggling object. Start with a human juggling balls; transitioning to a large species like gorilla allows preserving pose. Reducing scale introduces elephants later.",
     "prompts_list": [
-      "A photorealistic photo of Shrek taking a passport photo"
+      "A human juggles balls",
+      "A gorilla juggles balls",
+      "A monkey juggles tiny elephants"
+    ],
+    "switch_prompts_steps": [
+      3,
+      7
+    ]
+  },
+  "a woman has a marine haircut": {
+    "explanation": "Marine haircuts are visually distinct and recognizably human but not typically seen on women. Starting with short hair on a woman establishes overall structure without contradiction, allowing the final haircut identity to resolve without disrupting composition.",
+    "prompts_list": [
+      "A woman with short hair",
+      "A woman with a marine haircut"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A tower with two hands": {
+    "explanation": "Building a tower's structure first is essential before integrating human-like elements such as hands, which are introduced once the coarse geometry is aligned.",
+    "prompts_list": [
+      "A tower",
+      "A tower with human-like features, specifically two hands"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "An archer is shooting flowers with a bow": {
+    "explanation": "Flowers as projectiles disrupt typical archery scenarios. Starting with arrows transitions naturally from typical to surreal as the scene progresses.",
+    "prompts_list": [
+      "An archer is shooting arrows with a bow",
+      "An archer is shooting flowers with a bow"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A baseball player backswing a yellow ball with a golf club": {
+    "explanation": "Swinging a baseball bat and using a golf club are distinct actions. Starting with a baseball player using a bat stabilizes action and motion. Switching to a golf club maintains realism while finally introducing the unusual yellow ball.",
+    "prompts_list": [
+      "A baseball player swinging a bat",
+      "A baseball player swinging a golf club",
+      "A baseball player backswinging a yellow ball with a golf club"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
+    ]
+  },
+  "A barn built atop a skyscraper rooftop": {
+    "explanation": "A barn is typically found in rural areas and visually contrasts with a skyscraper. Introducing a helipad as a placeholder helps maintain the rooftop's setting before adding the barn in the final scene.",
+    "prompts_list": [
+      "A helipad built atop a skyscraper rooftop",
+      "A barn built atop a skyscraper rooftop"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A cat balancing a skyscraper on its nose": {
+    "explanation": "Balancing a large object like a skyscraper needs stabilization with realistic posing; a \"seal\" can balance a ball—similar in action to the cat, providing visual coherence before completing the surreal cat skyscraper challenge.",
+    "prompts_list": [
+      "A seal balancing a ball on its nose",
+      "A seal balancing a small building on its nose",
+      "A cat balancing a skyscraper on its nose"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
+    ]
+  },
+  "A cow grazing on a city rooftop": {
+    "explanation": "Cows are not typically found in urban settings, particularly on rooftops. Initially depicting a rooftop garden facilitates seamless spatial structure, enabling the later introduction of the cow, once the model can reconcile its usual pasture behavior in this unusual setting.",
+    "prompts_list": [
+      "A city rooftop with a garden",
+      "A cow grazing on a city rooftop"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A fireplace burning inside an igloo": {
+    "explanation": "A fireplace and an igloo are contextually contradictory due to their thermal properties. Beginning with an igloo alone grounds the scene in structure before introducing the fire's emission effect for realism.",
+    "prompts_list": [
+      "An igloo",
+      "A fireplace burning inside an igloo"
+    ],
+    "switch_prompts_steps": [
+      2
+    ]
+  },
+  "A mosquito pulling a royal carriage through Times Square": {
+    "explanation": "Mosquitoes are small and delicate, making the proposition of pulling a large carriage contradictory. Starting with a horse provides a scale-appropriate way to stabilize the scene before introducing the mosquito in this unusually grand task.",
+    "prompts_list": [
+      "A horse pulling a royal carriage through Times Square",
+      "A mosquito pulling a royal carriage through Times Square"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A grandma is ice skating on the roof": {
+    "explanation": "A figure ice skating is typically placed on an appropriate surface. Starting on the ground stabilizes motion and posture, progressing to a roof setting once the model has familiarized with action and the individual.",
+    "prompts_list": [
+      "A grandma ice skating on a frozen pond",
+      "A grandma ice skating on the roof"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A muscular ferret in the woods": {
+    "explanation": "The structure and layout of the woodland scene should be set up first due to its dominance. A regular ferret follows, stabilizing the animal's presence before introducing the unusual and detailed concept of muscularity.",
+    "prompts_list": [
+      "A ferret in the woods",
+      "A muscular ferret in the woods"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A house with a circular door": {
+    "explanation": "Circular doors are architecturally uncommon but not visually incoherent when incorporated into house designs, especially in fantasy-themed settings. No decomposition is needed.",
+    "prompts_list": [
+      "A house with a circular door"
     ],
     "switch_prompts_steps": []
   },
@@ -1543,71 +264,163 @@
       7
     ]
   },
-  "A photorealistic image of a flamingo wearing winter boots": {
-    "explanation": "Flamingos and winter boots are contextually contradictory due to climate associations. Starting with a duck provides a bird with similar stance and size, then transitioning through expressive accessories helps smooth the implausible visual scenario.",
+  "A pizza being used as an umbrella in the rain": {
+    "explanation": "The pizza as an umbrella is conceptually odd due to functional contradiction. A similar round object like a large hat or parasol provides structural organization first before morphing into the finalized scene.",
     "prompts_list": [
-      "A duck standing by a pond",
-      "A flamingo wearing accessories",
-      "A flamingo wearing winter boots"
+      "A large hat being used as an umbrella in the rain",
+      "A pizza being used as an umbrella in the rain"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A cubist lion hiding in a photorealistic jungle": {
+    "explanation": "The photorealistic jungle is established first to resolve the large-scale scene layout. Introduce the lion in a partial cubist style to bridge the style difference before refining to complete cubism.",
+    "prompts_list": [
+      "A photorealistic jungle",
+      "A partially cubist lion in a photorealistic jungle",
+      "A cubist lion hiding in a photorealistic jungle"
     ],
     "switch_prompts_steps": [
       4,
       8
     ]
   },
-  "A photorealistic image of a kangaroo delivering mail on a bicycle": {
-    "explanation": "Kangaroos and bicycles are incongruous due to the animal's distinctive hop and posture. Starting with a postal worker establishes a plausible delivery scene, then transitioning through a kangaroo holding a bicycle sets up the final unconventional.",
+  "A chicken is smiling": {
+    "explanation": "Chickens have fixed expressions, making smiling a biologically contradicting concept. Start with a chicken to ground visual authenticity, then morph toward its expression through a cartoonish transition.",
     "prompts_list": [
-      "A postal worker delivering mail on a bicycle",
-      "A kangaroo holding a bicycle",
-      "A kangaroo delivering mail on a bicycle"
-    ],
-    "switch_prompts_steps": [
-      3,
-      7
-    ]
-  },
-  "A photorealistic image of shark reading a newspaper on the beachA photorealistic image of Homer Simpson eating lunch in a corporate cafeteria": {
-    "explanation": "Sharks are typically depicted in the water, not performing human actions like reading. Starting with an anthropomorphic figure such as a merman helps bridge the marine setting and human activity combination.",
-    "prompts_list": [
-      "A merman enjoying a day at the beach",
-      "A shark by the beach, holding a newspaper",
-      "A shark reading a newspaper on the beach"
-    ],
-    "switch_prompts_steps": [
-      4,
-      8
-    ]
-  },
-  "A photorealistic image of shark reading a newspaper on the beach": {
-    "explanation": "Sharks are aquatic creatures, making a photorealistic depiction of them reading a newspaper on the beach conceptually complex. Starting with a human in a reclining pose stabilizes the scene layout, transitioning to a man in a shark costume to merge identity and action, before revealing the full surreal concept of the shark engaged in the human activity.",
-    "prompts_list": [
-      "A man reading a newspaper on the beach",
-      "A man in a shark costume reading a newspaper on the beach",
-      "A photorealistic image of shark reading a newspaper on the beach"
+      "A chicken",
+      "A cartoon chicken with exaggerated features",
+      "A chicken is smiling"
     ],
     "switch_prompts_steps": [
       3,
       6
     ]
   },
-  "A photorealistic image of Homer Simpson eating lunch in a corporate cafeteria": {
-    "explanation": "Homer Simpson is an iconic character, and eating lunch in a corporate cafeteria is a conceptually aligned scene requiring no surreal transformations or unlikely positions, making it visually coherent and realistic without decomposition.",
+  "A realistic photo of an elephant wearing slippers": {
+    "explanation": "While elephants aren't typically associated with footwear, the visual contradiction isn't significant enough to destabilize realism. The scene can be created using known elements without decomposition.",
     "prompts_list": [
-      "A photorealistic image of Homer Simpson eating lunch in a corporate cafeteria"
+      "A realistic photo of an elephant wearing slippers"
     ],
     "switch_prompts_steps": []
   },
-  "A bear performing a handstand in the park": {
-    "explanation": "Bears typically stand on all fours, not in human acrobatic poses. Starting with a person in the handstand posture stabilizes the unnatural pose, creating a bridge toward the unusual concept of a bear performing this action",
+  "A computer mouse eating a piece of cheese": {
+    "explanation": "The concept is surreal and requires alignment of form; initially representing a computer mouse as a real mouse provides a visual bridge for the eating action.",
     "prompts_list": [
-      "A person performing a handstand in the park",
-      "A person in a bear costume performing a handstand in the park",
-      "A bear performing a handstand in the park"
+      "A real mouse eating a piece of cheese",
+      "A computer mouse eating a piece of cheese"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A horse taking a selfie with a smartphone": {
+    "explanation": "A horse holding a smartphone in a human manner is an unlikely pose. Starting with a man stabilizes the action layout of taking a selfie, preserving realistic body geometry before transitioning to the horse identity.",
+    "prompts_list": [
+      "A man taking a selfie with a smartphone",
+      "A horse taking a selfie with a smartphone"
+    ],
+    "switch_prompts_steps": [
+      4
+    ]
+  },
+  "A sheep practicing yoga on a mat": {
+    "explanation": "Yoga is a human activity uncommon for sheep. Establishing a generic yoga figure first allows pose stabilization, then transitioning through a humanoid sheep navigates the identity shift.",
+    "prompts_list": [
+      "A person practicing yoga on a mat",
+      "A humanoid sheep practicing yoga on a mat",
+      "A sheep practicing yoga on a mat"
     ],
     "switch_prompts_steps": [
       3,
-      7
+      6
+    ]
+  },
+  "a snake eating a small golden guitar": {
+    "explanation": "Snakes are typically seen eating prey like rodents, not objects like guitars. Starting with a mouse provides a realistic proxy for the initial action, transitioning to the unusual and detailed target as the model refines detail.",
+    "prompts_list": [
+      "A snake eating a mouse",
+      "A snake eating a small golden guitar"
+    ],
+    "switch_prompts_steps": [
+      6
+    ]
+  },
+  "A soccer field painted on a grain of rice": {
+    "explanation": "The grain of rice is a very small canvas requiring stable geometry before depicting the soccer field. The initial prompt focuses on the rice, delaying the soccer field until the scene's scale is resolved.",
+    "prompts_list": [
+      "A close-up of a grain of rice",
+      "A grain of rice painted with a soccer field"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A snake with feet": {
+    "explanation": "A snake's form is distinct from a footed creature. Starting with a legless lizard stabilizes movement and body layout, closer to a mixed-concept form, before the final shift to a snake with feet.",
+    "prompts_list": [
+      "A legless lizard crawling",
+      "A mutant snake with small feet",
+      "A snake with feet"
+    ],
+    "switch_prompts_steps": [
+      5,
+      8
+    ]
+  },
+  "A woman brushing her teeth with a paintbrush": {
+    "explanation": "The action of brushing teeth is human-specific and requires stable facial geometry. Starting with a toothbrush stabilizes the motion and typical behavior before introducing the unusual item, the paintbrush.",
+    "prompts_list": [
+      "A woman brushing her teeth with a toothbrush",
+      "A woman brushing her teeth with a paintbrush"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A horse with a hump": {
+    "explanation": "Horses are generally depicted with a smooth back, unlike camels with humps. To visualize the hump naturally, beginning with a camel stabilizes unusual anatomy before switching to the final equine form.",
+    "prompts_list": [
+      "A camel",
+      "A horse with a hump"
+    ],
+    "switch_prompts_steps": [
+      3
+    ]
+  },
+  "A hyperrealistic unicorn made of origami": {
+    "explanation": "Start with geometric shapes formed from paper to prepare for origami. Integrate mythical qualities next to refine identity before hyperrealistic detailing is perfected as the model completes the final steps.",
+    "prompts_list": [
+      "Origami consisting of geometric paper designs",
+      "Paper unicorn created through origami",
+      "A hyperrealistic unicorn made of origami"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
+    ]
+  },
+  "A library printed on a butterfly’s wings": {
+    "explanation": "Butterfly wings are small and typically colorful, unlike the structured complexity of a library. Introducing kaleidoscope patterns first allows the structure to develop in a visually coherent manner before resolving into detailed imagery.",
+    "prompts_list": [
+      "A kaleidoscope pattern on butterfly wings",
+      "A library printed on a butterfly’s wings"
+    ],
+    "switch_prompts_steps": [
+      5
+    ]
+  },
+  "A bodybuilder balancing on pointe shoes": {
+    "explanation": "Balancing on pointe shoes is associated with ballet, an unusual activity for a bodybuilder. Starting with a ballet dancer stabilizes posture, while a muscular figure in ballet attire transitions towards the target.",
+    "prompts_list": [
+      "A ballet dancer balancing on pointe shoes",
+      "A muscular figure in ballet attire balancing on pointe shoes",
+      "A bodybuilder balancing on pointe shoes"
+    ],
+    "switch_prompts_steps": [
+      3,
+      6
     ]
   }
 }
